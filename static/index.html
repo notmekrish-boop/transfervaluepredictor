@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PL Valuation Engine — Premier League Transfer Value Predictor</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Syne"', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          colors: {
+            dark: {
+              950: '#080a0d',
+              900: '#0c0e13',
+              850: '#11141c',
+              800: '#161a24',
+              700: '#222736',
+              border: 'rgba(255, 255, 255, 0.08)',
+              borderHover: 'rgba(255, 255, 255, 0.20)',
+            },
+            silver: {
+              100: '#ffffff',
+              200: '#e4e4e7',
+              300: '#d4d4d8',
+              400: '#a1a1aa',
+              500: '#71717a',
+            },
+            accent: {
+              cyan: '#00f2fe',
+              emerald: '#10b981',
+              rose: '#f43f5e',
+              purple: '#8b5cf6',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #080a0d;
+      color: #f4f4f6;
+      overflow-x: hidden;
+    }
+    .glass-card {
+      background: rgba(18, 22, 31, 0.65);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+    }
+    .glass-card:hover {
+      border-color: rgba(255, 255, 255, 0.16);
+    }
+    .glass-nav {
+      background: rgba(8, 10, 13, 0.85);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .metallic-btn {
+      background: linear-gradient(135deg, #ffffff 0%, #e2e8f0 50%, #94a3b8 100%);
+      color: #090b0e;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 20px rgba(255, 255, 255, 0.12);
+    }
+    .metallic-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 28px rgba(255, 255, 255, 0.22);
+    }
+    .ghost-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      color: #e4e4e7;
+      transition: all 0.2s ease;
+    }
+    .ghost-btn:hover {
+      background: rgba(255, 255, 255, 0.09);
+      border-color: rgba(255, 255, 255, 0.25);
+      color: #ffffff;
+    }
+    .orbit-ring {
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 50%;
+    }
+    input[type=range] {
+      accent-color: #ffffff;
+    }
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #080a0d;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #272c3b;
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #4b5563;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col font-sans selection:bg-white selection:text-black">
+
+  <!-- ========================================================= -->
+  <!-- TOP MINIMAL NAVIGATION BAR -->
+  <!-- ========================================================= -->
+  <header class="fixed top-0 left-0 right-0 z-50 glass-nav">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Monogram Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-white via-zinc-200 to-zinc-600 flex items-center justify-center text-black font-display font-black text-lg tracking-tighter shadow-md group-hover:scale-105 transition">
+          PL
+        </div>
+        <div class="flex flex-col">
+          <span class="font-display font-bold text-sm tracking-wider text-white uppercase">Valuation</span>
+          <span class="text-[10px] tracking-widest text-zinc-500 uppercase font-mono">Engine v4.0</span>
+        </div>
+      </a>
+
+      <!-- Center Nav Links -->
+      <nav class="hidden md:flex items-center space-x-8 text-xs font-semibold tracking-widest uppercase text-zinc-400">
+        <a href="#scout" class="hover:text-white transition">Scout</a>
+        <a href="#simulator" class="hover:text-white transition">Valuator</a>
+        <a href="#capabilities" class="hover:text-white transition">Capabilities</a>
+        <a href="#database" class="hover:text-white transition">Roster DB</a>
+        <a href="#diagnostics" class="hover:text-white transition">Diagnostics</a>
+      </nav>
+
+      <!-- Right Action CTA -->
+      <div class="flex items-center gap-3">
+        <div class="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-[11px] font-mono text-emerald-400">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>API LIVE</span>
+        </div>
+        <a href="#simulator" class="metallic-btn px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider flex items-center gap-1.5">
+          <span>Predict Value</span>
+          <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ========================================================= -->
+  <!-- HERO SECTION (MATCHING REFERENCE COMPOSITION) -->
+  <!-- ========================================================= -->
+  <section class="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+    <!-- Atmospheric glows and orbit rings -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[500px] bg-gradient-to-b from-zinc-700/10 to-transparent blur-3xl pointer-events-none rounded-full"></div>
+    <div class="absolute right-[-100px] top-[120px] w-[600px] h-[600px] orbit-ring pointer-events-none hidden lg:block"></div>
+    <div class="absolute right-[50px] top-[260px] w-[320px] h-[320px] orbit-ring pointer-events-none hidden lg:block"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Hero Typography & Copy -->
+        <div class="lg:col-span-7 space-y-7">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-mono tracking-widest text-zinc-300 uppercase">
+            <span class="text-zinc-400">✦</span> Algorithmic Valuation Intelligence
+          </div>
+
+          <h1 class="text-5xl sm:text-7xl xl:text-8xl font-display font-extrabold uppercase tracking-tight text-white leading-[0.92]">
+            PREMIER<br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-200 to-zinc-500">VALUATION</span><br>
+            ENGINE.
+          </h1>
+
+          <p class="text-base sm:text-lg text-zinc-400 max-w-xl font-normal leading-relaxed">
+            We build objective machine learning models merging live matchday data from <strong class="text-zinc-200">football-data.org</strong>, performance metrics, and multiple linear regression to determine what any Premier League player is fundamentally worth.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <a href="#scout" class="metallic-btn px-6 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider flex items-center gap-2">
+              <span>Explore Valuations</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </a>
+            <a href="#simulator" class="ghost-btn px-6 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider flex items-center gap-2">
+              <i data-lucide="sliders" class="w-4 h-4"></i>
+              <span>Launch Simulator</span>
+            </a>
+          </div>
+
+          <div class="flex items-center gap-4 text-xs font-mono text-zinc-500 pt-4 border-t border-zinc-800/80">
+            <span>TECH STACK:</span>
+            <span class="text-zinc-300">REQUESTS</span> • 
+            <span class="text-zinc-300">PANDAS</span> • 
+            <span class="text-zinc-300">SCIKIT-LEARN</span> • 
+            <span class="text-zinc-300">MATPLOTLIB</span>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual Card (Editorial Player Portrait) -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md">
+            <!-- Glass card container -->
+            <div class="glass-card rounded-3xl p-6 relative overflow-hidden shadow-2xl border border-white/15">
+              
+              <!-- Subtle badge on top -->
+              <div class="flex items-center justify-between pb-4 border-b border-white/10 text-xs">
+                <span class="font-mono text-zinc-400 uppercase tracking-wider">MARQUEE SPOTLIGHT</span>
+                <span class="px-2.5 py-1 rounded-full bg-white/10 text-white font-mono text-[11px] font-bold">PL 2024-25</span>
+              </div>
+
+              <!-- Star showcase representation -->
+              <div class="my-6 relative rounded-2xl bg-gradient-to-b from-dark-800 to-dark-950 border border-white/10 p-6 flex flex-col items-center text-center overflow-hidden">
+                <div class="absolute -top-12 -right-12 w-40 h-40 bg-zinc-500/10 rounded-full blur-2xl"></div>
+                
+                <!-- Player Crest / Avatar -->
+                <div class="w-24 h-24 rounded-full bg-gradient-to-tr from-zinc-700 via-zinc-800 to-zinc-900 border-2 border-white/20 flex items-center justify-center text-3xl font-display font-extrabold text-white shadow-xl relative z-10">
+                  EH
+                </div>
+                
+                <h3 class="text-2xl font-display font-bold text-white mt-4">Erling Haaland</h3>
+                <p class="text-xs text-zinc-400 font-mono mt-0.5">Manchester City • Forward • Age 24</p>
+
+                <!-- Value comparison pill -->
+                <div class="grid grid-cols-2 gap-3 w-full mt-6 pt-5 border-t border-white/10 text-left">
+                  <div class="p-3 rounded-xl bg-white/[0.03] border border-white/5">
+                    <span class="text-[10px] uppercase font-mono text-zinc-500 block">Actual Market</span>
+                    <span class="text-xl font-bold font-mono text-white mt-0.5 block">€180.0M</span>
+                  </div>
+                  <div class="p-3 rounded-xl bg-white/[0.08] border border-white/15">
+                    <span class="text-[10px] uppercase font-mono text-zinc-300 block">Model Predicted</span>
+                    <span class="text-xl font-bold font-mono text-emerald-400 mt-0.5 block">€154.1M</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Floating Live Data Badge -->
+              <div class="flex items-center justify-between text-xs text-zinc-400 font-mono">
+                <div class="flex items-center gap-2">
+                  <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+                  <span>FOOTBALL-DATA.ORG LIVE</span>
+                </div>
+                <span class="text-white font-bold">9 GOALS / 9 MATCHES</span>
+              </div>
+
+            </div>
+
+            <!-- Floating side tag -->
+            <div class="absolute -bottom-4 -left-4 sm:-left-6 px-4 py-2.5 rounded-2xl glass-card border border-white/20 shadow-2xl flex items-center gap-3">
+              <div class="w-8 h-8 rounded-xl bg-white text-black flex items-center justify-center font-bold text-sm">
+                ✦
+              </div>
+              <div>
+                <span class="text-[10px] uppercase font-mono text-zinc-400 block tracking-wider">ALGORITHM PEAK</span>
+                <span class="text-xs font-bold text-white">+€3.27M Per Goal Scored</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- HORIZONTAL STAT METRIC STRIP (EXACT REFERENCE REPLICA) -->
+  <!-- ========================================================= -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-4 mb-20 relative z-20">
+    <div class="glass-card rounded-2xl p-6 sm:p-8 shadow-2xl border border-white/10">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 divide-y sm:divide-y-0 sm:divide-x divide-zinc-800">
+        
+        <!-- Col 1 -->
+        <div class="pt-4 sm:pt-0 sm:px-6 first:pl-0 flex flex-col items-center sm:items-start text-center sm:text-left space-y-2">
+          <i data-lucide="sparkles" class="w-5 h-5 text-zinc-400"></i>
+          <div class="text-4xl sm:text-5xl font-display font-extrabold text-white tracking-tight">169+</div>
+          <div class="text-xs uppercase font-mono text-zinc-400 tracking-wider">Live & Season Players</div>
+        </div>
+
+        <!-- Col 2 -->
+        <div class="pt-4 sm:pt-0 sm:px-6 flex flex-col items-center sm:items-start text-center sm:text-left space-y-2">
+          <i data-lucide="shield" class="w-5 h-5 text-zinc-400"></i>
+          <div class="text-4xl sm:text-5xl font-display font-extrabold text-white tracking-tight">20</div>
+          <div class="text-xs uppercase font-mono text-zinc-400 tracking-wider">Premier League Clubs</div>
+        </div>
+
+        <!-- Col 3 -->
+        <div class="pt-4 sm:pt-0 sm:px-6 flex flex-col items-center sm:items-start text-center sm:text-left space-y-2">
+          <i data-lucide="trophy" class="w-5 h-5 text-zinc-400"></i>
+          <div class="text-4xl sm:text-5xl font-display font-extrabold text-white tracking-tight">0.59</div>
+          <div class="text-xs uppercase font-mono text-zinc-400 tracking-wider">R² Determination Fit</div>
+        </div>
+
+        <!-- Col 4 -->
+        <div class="pt-4 sm:pt-0 sm:px-6 flex flex-col items-center sm:items-start text-center sm:text-left space-y-2">
+          <i data-lucide="globe" class="w-5 h-5 text-zinc-400"></i>
+          <div class="text-4xl sm:text-5xl font-display font-extrabold text-white tracking-tight">€4.3B+</div>
+          <div class="text-xs uppercase font-mono text-zinc-400 tracking-wider">Market Value Indexed</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- FEATURED VALUATIONS (MATCHING "FEATURED WORK" 3-CARD GRID) -->
+  <!-- ========================================================= -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-28">
+    <div class="flex items-end justify-between mb-8 pb-4 border-b border-zinc-800">
+      <div>
+        <span class="text-xs font-mono uppercase tracking-widest text-zinc-500 block mb-1">SIGNATURE PROFILES</span>
+        <h2 class="text-2xl sm:text-3xl font-display font-extrabold text-white tracking-tight uppercase">Featured Valuations</h2>
+      </div>
+      <a href="#database" class="text-xs font-mono text-zinc-400 hover:text-white flex items-center gap-1.5 transition">
+        <span>Explore All Players</span>
+        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+      </a>
+    </div>
+
+    <!-- 3 Glassmorphic Feature Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Card 1: Cole Palmer -->
+      <div onclick="selectPlayer('Cole Palmer')" class="glass-card rounded-2xl p-6 group cursor-pointer transition hover:-translate-y-1.5 duration-300 relative overflow-hidden flex flex-col justify-between">
+        <div class="space-y-4">
+          <div class="flex justify-between items-start">
+            <span class="px-2.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-[10px] font-mono uppercase tracking-wider font-bold">
+              Arbitrage Bargain (+€34.3M)
+            </span>
+            <div class="w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition">
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </div>
+          </div>
+          
+          <div class="h-32 rounded-xl bg-gradient-to-br from-zinc-800/60 to-zinc-900/80 p-4 border border-white/5 flex flex-col justify-between">
+            <div class="flex justify-between items-center text-xs font-mono text-zinc-400">
+              <span>GOALS: 22</span>
+              <span>ASSISTS: 11</span>
+            </div>
+            <div class="flex items-baseline justify-between">
+              <span class="text-xs text-zinc-500">Predicted Value</span>
+              <span class="text-2xl font-display font-extrabold text-emerald-400 font-mono">€114.3M</span>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-display font-bold text-white group-hover:text-zinc-200 transition">Cole Palmer Arbitrage</h3>
+            <p class="text-xs text-zinc-400 font-mono mt-1">Chelsea FC • Attacking Midfielder • Age 22</p>
+          </div>
+        </div>
+
+        <div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-[11px] font-mono text-zinc-500">
+          <span>Actual: €80.0M</span>
+          <span class="text-emerald-400">+42.9% Model Delta</span>
+        </div>
+      </div>
+
+      <!-- Card 2: Erling Haaland -->
+      <div onclick="selectPlayer('Erling Haaland')" class="glass-card rounded-2xl p-6 group cursor-pointer transition hover:-translate-y-1.5 duration-300 relative overflow-hidden flex flex-col justify-between">
+        <div class="space-y-4">
+          <div class="flex justify-between items-start">
+            <span class="px-2.5 py-1 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20 text-[10px] font-mono uppercase tracking-wider font-bold">
+              Fair Market Peg
+            </span>
+            <div class="w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition">
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </div>
+          </div>
+          
+          <div class="h-32 rounded-xl bg-gradient-to-br from-zinc-800/60 to-zinc-900/80 p-4 border border-white/5 flex flex-col justify-between">
+            <div class="flex justify-between items-center text-xs font-mono text-zinc-400">
+              <span>GOALS: 36</span>
+              <span>ASSISTS: 8</span>
+            </div>
+            <div class="flex items-baseline justify-between">
+              <span class="text-xs text-zinc-500">Predicted Value</span>
+              <span class="text-2xl font-display font-extrabold text-white font-mono">€154.1M</span>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-display font-bold text-white group-hover:text-zinc-200 transition">Haaland Goal Matrix</h3>
+            <p class="text-xs text-zinc-400 font-mono mt-1">Manchester City • Striker • Age 23</p>
+          </div>
+        </div>
+
+        <div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-[11px] font-mono text-zinc-500">
+          <span>Actual: €180.0M</span>
+          <span class="text-blue-400">World Benchmark</span>
+        </div>
+      </div>
+
+      <!-- Card 3: William Saliba -->
+      <div onclick="selectPlayer('William Saliba')" class="glass-card rounded-2xl p-6 group cursor-pointer transition hover:-translate-y-1.5 duration-300 relative overflow-hidden flex flex-col justify-between">
+        <div class="space-y-4">
+          <div class="flex justify-between items-start">
+            <span class="px-2.5 py-1 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/20 text-[10px] font-mono uppercase tracking-wider font-bold">
+              Defensive Cornerstone
+            </span>
+            <div class="w-9 h-9 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition">
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </div>
+          </div>
+          
+          <div class="h-32 rounded-xl bg-gradient-to-br from-zinc-800/60 to-zinc-900/80 p-4 border border-white/5 flex flex-col justify-between">
+            <div class="flex justify-between items-center text-xs font-mono text-zinc-400">
+              <span>MINUTES: 3,420m</span>
+              <span>MATCHES: 38/38</span>
+            </div>
+            <div class="flex items-baseline justify-between">
+              <span class="text-xs text-zinc-500">Predicted Value</span>
+              <span class="text-2xl font-display font-extrabold text-white font-mono">€56.0M</span>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-display font-bold text-white group-hover:text-zinc-200 transition">Saliba Durability Fortress</h3>
+            <p class="text-xs text-zinc-400 font-mono mt-1">Arsenal FC • Centre-Back • Age 23</p>
+          </div>
+        </div>
+
+        <div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between text-[11px] font-mono text-zinc-500">
+          <span>Actual: €80.0M</span>
+          <span class="text-purple-400">Ironclad Starter</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION: SCOUT STARS (INTERACTIVE LIVE PLAYER COMPARATOR) -->
+  <!-- ========================================================= -->
+  <section id="scout" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-28">
+    <div class="mb-8 pb-4 border-b border-zinc-800">
+      <span class="text-xs font-mono uppercase tracking-widest text-zinc-500 block mb-1">INTERACTIVE COMPARATOR</span>
+      <h2 class="text-2xl sm:text-3xl font-display font-extrabold text-white tracking-tight uppercase">Scout Any Premier League Star</h2>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      
+      <!-- Search & Quick Selection Column -->
+      <div class="lg:col-span-5 space-y-4">
+        <div class="glass-card rounded-2xl p-6 border border-white/10 space-y-4">
+          <label for="playerSearchInput" class="block text-xs font-mono uppercase tracking-wider text-zinc-400">
+            Player Search (Live API & Historical DB):
+          </label>
+          <div class="relative">
+            <input 
+              type="text" 
+              id="playerSearchInput" 
+              placeholder="Search player name (e.g. Palmer, Haaland, Saka, Rice)..."
+              class="w-full bg-dark-950 border border-zinc-700/60 rounded-xl px-4 py-3 pl-11 text-white placeholder-zinc-500 focus:outline-none focus:ring-1 focus:ring-white text-sm font-sans transition"
+              oninput="handleSearchInput(event)"
+            />
+            <i data-lucide="search" class="w-4 h-4 absolute left-4 top-3.5 text-zinc-500"></i>
+            <div id="searchDropdown" class="hidden absolute w-full mt-1.5 bg-dark-900 border border-zinc-700 rounded-xl shadow-2xl z-50 max-h-64 overflow-y-auto divide-y divide-zinc-800">
+              <!-- Autocomplete matches -->
+            </div>
+          </div>
+
+          <!-- Quick Selector Pills -->
+          <div>
+            <span class="text-[11px] font-mono text-zinc-500 uppercase tracking-wider block mb-2">Featured Quick Picks:</span>
+            <div class="flex flex-wrap gap-2 text-xs">
+              <button onclick="selectPlayer('Cole Palmer')" class="px-3 py-1.5 bg-white/5 hover:bg-white/10 text-zinc-300 hover:text-white rounded-lg border border-white/10 transition">Cole Palmer</button>
+              <button onclick="selectPlayer('Erling Haaland')" class="px-3 py-1.5 bg-white/5 hover:bg-white/10 text-zinc-300 hover:text-white rounded-lg border border-white/10 transition">Erling Haaland</button>
+              <button onclick="selectPlayer('Bukayo Saka')" class="px-3 py-1.5 bg-white/5 hover:bg-white/10 text-zinc-300 hover:text-white rounded-lg border border-white/10 transition">Bukayo Saka</button>
+              <button onclick="selectPlayer('Declan Rice')" class="px-3 py-1.5 bg-white/5 hover:bg-white/10 text-zinc-300 hover:text-white rounded-lg border border-white/10 transition">Declan Rice</button>
+              <button onclick="selectPlayer('William Saliba')" class="px-3 py-1.5 bg-white/5 hover:bg-white/10 text-zinc-300 hover:text-white rounded-lg border border-white/10 transition">William Saliba</button>
+              <button onclick="selectPlayer('Ollie Watkins')" class="px-3 py-1.5 bg-white/5 hover:bg-white/10 text-zinc-300 hover:text-white rounded-lg border border-white/10 transition">Ollie Watkins</button>
+            </div>
+          </div>
+
+          <!-- Live API Indicator Card -->
+          <div class="p-4 rounded-xl bg-white/[0.02] border border-white/5 flex items-center justify-between text-xs font-mono">
+            <div class="flex items-center gap-2.5">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+              <span class="text-zinc-300">Live API Key Active</span>
+            </div>
+            <span class="text-zinc-500">football-data.org</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Detailed Valuation Assessment Card -->
+      <div class="lg:col-span-7">
+        <div id="playerValuationCard" class="glass-card rounded-2xl p-6 sm:p-8 border border-white/10 space-y-6 shadow-2xl">
+          
+          <!-- Card Header -->
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 pb-6 border-b border-zinc-800">
+            <div class="flex items-center gap-4">
+              <div id="playerAvatar" class="w-14 h-14 rounded-2xl bg-zinc-800 border border-white/15 flex items-center justify-center text-xl font-display font-bold text-white shadow-lg overflow-hidden">
+                CP
+              </div>
+              <div>
+                <div class="flex items-center gap-2">
+                  <h3 id="cardPlayerName" class="text-2xl font-display font-bold text-white">Cole Palmer</h3>
+                  <span id="cardPositionBadge" class="px-2 py-0.5 rounded text-[10px] font-mono uppercase bg-white/10 text-zinc-300">Forward</span>
+                </div>
+                <p id="cardPlayerClub" class="text-xs text-zinc-400 font-mono mt-0.5">Chelsea FC • Season 2023-24</p>
+              </div>
+            </div>
+            
+            <div id="cardStatusBadge" class="px-3.5 py-1.5 rounded-full text-xs font-mono font-bold flex items-center gap-2 bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+              <i data-lucide="trending-up" class="w-3.5 h-3.5"></i> Undervalued Bargain (+€34.3M)
+            </div>
+          </div>
+
+          <!-- 3-Column Valuation Metric Tiles -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="p-4 rounded-xl bg-dark-950 border border-white/5">
+              <span class="text-[10px] font-mono uppercase text-zinc-500 block">Actual Market Value</span>
+              <span id="cardActualValue" class="text-2xl sm:text-3xl font-display font-extrabold text-white font-mono mt-1 block">€80.0M</span>
+              <span class="text-[10px] text-zinc-500 font-mono mt-1 block">Verified benchmark</span>
+            </div>
+
+            <div class="p-4 rounded-xl bg-white/[0.04] border border-white/20">
+              <span class="text-[10px] font-mono uppercase text-emerald-400 block">Model Prediction</span>
+              <span id="cardPredictedValue" class="text-2xl sm:text-3xl font-display font-extrabold text-emerald-400 font-mono mt-1 block">€114.3M</span>
+              <span class="text-[10px] text-zinc-400 font-mono mt-1 block">Linear Regression fit</span>
+            </div>
+
+            <div class="p-4 rounded-xl bg-dark-950 border border-white/5">
+              <span class="text-[10px] font-mono uppercase text-zinc-500 block">Valuation Delta</span>
+              <span id="cardDeltaValue" class="text-2xl sm:text-3xl font-display font-extrabold text-emerald-400 font-mono mt-1 block">+€34.3M</span>
+              <span id="cardDeltaPct" class="text-[10px] text-zinc-400 font-mono mt-1 block">+42.9% vs market</span>
+            </div>
+          </div>
+
+          <!-- Stats Grid -->
+          <div class="grid grid-cols-4 gap-3 text-center py-2">
+            <div class="p-3 rounded-xl bg-dark-950 border border-white/5">
+              <span class="text-[10px] uppercase font-mono text-zinc-500">Goals</span>
+              <span id="cardStatGoals" class="text-xl font-bold font-mono text-white block mt-0.5">22</span>
+            </div>
+            <div class="p-3 rounded-xl bg-dark-950 border border-white/5">
+              <span class="text-[10px] uppercase font-mono text-zinc-500">Assists</span>
+              <span id="cardStatAssists" class="text-xl font-bold font-mono text-white block mt-0.5">11</span>
+            </div>
+            <div class="p-3 rounded-xl bg-dark-950 border border-white/5">
+              <span class="text-[10px] uppercase font-mono text-zinc-500">Minutes</span>
+              <span id="cardStatMinutes" class="text-xl font-bold font-mono text-white block mt-0.5">2,617</span>
+            </div>
+            <div class="p-3 rounded-xl bg-dark-950 border border-white/5">
+              <span class="text-[10px] uppercase font-mono text-zinc-500">Age</span>
+              <span id="cardStatAge" class="text-xl font-bold font-mono text-white block mt-0.5">22 yrs</span>
+            </div>
+          </div>
+
+          <!-- Waterfall Decomposition -->
+          <div class="space-y-3 pt-2 border-t border-zinc-800">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-mono uppercase text-zinc-400 font-bold">Algorithmic Decomposition Breakdown</span>
+              <span class="font-mono text-zinc-500">y = b₀ + ∑(wᵢ × xᵢ)</span>
+            </div>
+
+            <div id="cardDecompositionList" class="space-y-1.5 p-4 rounded-xl bg-dark-950 border border-white/5 text-xs font-mono">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION: VALUATOR SIMULATOR (WHAT-IF CALCULATOR) -->
+  <!-- ========================================================= -->
+  <section id="simulator" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-28">
+    <div class="mb-8 pb-4 border-b border-zinc-800">
+      <span class="text-xs font-mono uppercase tracking-widest text-zinc-500 block mb-1">INTERACTIVE LAB</span>
+      <h2 class="text-2xl sm:text-3xl font-display font-extrabold text-white tracking-tight uppercase">Custom Player Valuation Simulator</h2>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      
+      <!-- Slider Controls -->
+      <div class="lg:col-span-7 glass-card rounded-2xl p-6 sm:p-8 border border-white/10 space-y-6">
+        <div>
+          <span class="text-xs font-mono uppercase tracking-wider text-zinc-400 block mb-2">Select Position</span>
+          <div class="grid grid-cols-4 gap-2">
+            <button onclick="setCalcPosition('Forward')" id="calc-pos-Forward" class="calc-pos-btn py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-white text-black transition">Forward</button>
+            <button onclick="setCalcPosition('Midfielder')" id="calc-pos-Midfielder" class="calc-pos-btn py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-zinc-400 hover:text-white border border-white/10 transition">Midfielder</button>
+            <button onclick="setCalcPosition('Defender')" id="calc-pos-Defender" class="calc-pos-btn py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-zinc-400 hover:text-white border border-white/10 transition">Defender</button>
+            <button onclick="setCalcPosition('Goalkeeper')" id="calc-pos-Goalkeeper" class="calc-pos-btn py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-zinc-400 hover:text-white border border-white/10 transition">Goalkeeper</button>
+          </div>
+        </div>
+
+        <!-- Sliders -->
+        <div class="space-y-6 pt-2">
+          <!-- Age Slider -->
+          <div class="space-y-1.5">
+            <div class="flex justify-between text-xs font-mono">
+              <span class="text-zinc-400">PLAYER AGE</span>
+              <span id="calcAgeDisplay" class="text-white font-bold">22 yrs</span>
+            </div>
+            <input type="range" id="calcAge" min="17" max="38" value="22" class="w-full h-1.5 bg-zinc-800 rounded-lg cursor-pointer" oninput="runCalculator()">
+            <div class="flex justify-between text-[10px] text-zinc-600 font-mono"><span>17 (Wonderkid)</span><span>27 (Peak)</span><span>38 (Veteran)</span></div>
+          </div>
+
+          <!-- Goals Slider -->
+          <div class="space-y-1.5">
+            <div class="flex justify-between text-xs font-mono">
+              <span class="text-zinc-400">SEASON GOALS</span>
+              <span id="calcGoalsDisplay" class="text-white font-bold">15</span>
+            </div>
+            <input type="range" id="calcGoals" min="0" max="40" value="15" class="w-full h-1.5 bg-zinc-800 rounded-lg cursor-pointer" oninput="runCalculator()">
+            <div class="flex justify-between text-[10px] text-zinc-600 font-mono"><span>0</span><span>20 (Golden Boot)</span><span>40 (Haaland tier)</span></div>
+          </div>
+
+          <!-- Assists Slider -->
+          <div class="space-y-1.5">
+            <div class="flex justify-between text-xs font-mono">
+              <span class="text-zinc-400">SEASON ASSISTS</span>
+              <span id="calcAssistsDisplay" class="text-white font-bold">8</span>
+            </div>
+            <input type="range" id="calcAssists" min="0" max="25" value="8" class="w-full h-1.5 bg-zinc-800 rounded-lg cursor-pointer" oninput="runCalculator()">
+            <div class="flex justify-between text-[10px] text-zinc-600 font-mono"><span>0</span><span>10 (Playmaker)</span><span>25 (Record)</span></div>
+          </div>
+
+          <!-- Minutes Slider -->
+          <div class="space-y-1.5">
+            <div class="flex justify-between text-xs font-mono">
+              <span class="text-zinc-400">MINUTES PLAYED</span>
+              <span id="calcMinutesDisplay" class="text-white font-bold">2,700m (30 matches)</span>
+            </div>
+            <input type="range" id="calcMinutes" min="0" max="3420" step="90" value="2700" class="w-full h-1.5 bg-zinc-800 rounded-lg cursor-pointer" oninput="runCalculator()">
+            <div class="flex justify-between text-[10px] text-zinc-600 font-mono"><span>0</span><span>1,800m (Rotation)</span><span>3,420m (Full Season)</span></div>
+          </div>
+        </div>
+
+        <!-- Preset Archetypes -->
+        <div class="pt-4 border-t border-zinc-800">
+          <span class="text-[11px] font-mono uppercase text-zinc-500 block mb-2">Scouting Archetypes:</span>
+          <div class="flex flex-wrap gap-2 text-xs">
+            <button onclick="applyPreset('wonderkid')" class="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-zinc-300 border border-white/10 transition">🔥 19yo Wonderkid</button>
+            <button onclick="applyPreset('veteran')" class="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-zinc-300 border border-white/10 transition">⏳ 33yo Poacher</button>
+            <button onclick="applyPreset('engine')" class="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-zinc-300 border border-white/10 transition">⚡ 25yo Box-to-Box</button>
+            <button onclick="applyPreset('rock')" class="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-zinc-300 border border-white/10 transition">🛡️ 23yo Ironclad CB</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real-Time Gauge Output -->
+      <div class="lg:col-span-5 glass-card rounded-2xl p-6 sm:p-8 border border-white/10 space-y-6 sticky top-28">
+        <div class="text-center py-6 border-b border-zinc-800">
+          <span class="text-xs uppercase font-mono tracking-widest text-zinc-500 block">Estimated Market Valuation</span>
+          <div id="calcResultValue" class="text-6xl font-display font-extrabold text-white font-mono mt-3">
+            €81.3M
+          </div>
+          <span class="text-xs text-zinc-400 font-mono mt-2 block">Linear regression output based on stats</span>
+        </div>
+
+        <!-- Waterfall Decomposition in Simulator -->
+        <div class="space-y-2">
+          <span class="text-xs uppercase font-mono tracking-wider text-zinc-400 font-bold block">Contribution Breakdown:</span>
+          <div id="calcWaterfall" class="space-y-1.5 text-xs font-mono p-4 rounded-xl bg-dark-950 border border-white/5">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+
+        <div class="p-4 rounded-xl bg-white/[0.02] border border-white/5 text-xs text-zinc-400 leading-relaxed font-mono">
+          <strong class="text-white block mb-1">Scouting Takeaway:</strong>
+          Every season goal yields <strong class="text-emerald-400">+€3.27M</strong>, assists add <strong class="text-emerald-400">+€2.21M</strong>, while each year of age accounts for <strong class="text-rose-400">-€3.81M</strong> depreciation.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION: CORE CAPABILITIES & DATA PIPELINE (MATCHING REF) -->
+  <!-- ========================================================= -->
+  <section id="capabilities" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-28">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+      
+      <!-- Left: Core Capabilities (6 Grid Items) -->
+      <div class="lg:col-span-7 space-y-6">
+        <div class="pb-3 border-b border-zinc-800">
+          <span class="text-xs font-mono uppercase tracking-widest text-zinc-500 block mb-1">METHODOLOGY</span>
+          <h2 class="text-xl sm:text-2xl font-display font-extrabold text-white tracking-tight uppercase">Core Valuation Drivers</h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <!-- 1 -->
+          <div class="glass-card p-5 rounded-2xl border border-white/10 space-y-2">
+            <div class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-white">
+              <i data-lucide="target" class="w-4 h-4"></i>
+            </div>
+            <h3 class="text-sm font-display font-bold text-white">Goal Threat Matrix</h3>
+            <p class="text-xs text-zinc-400 font-mono leading-relaxed">+€3.27M valuation increase per goal scored in the league season.</p>
+          </div>
+
+          <!-- 2 -->
+          <div class="glass-card p-5 rounded-2xl border border-white/10 space-y-2">
+            <div class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-white">
+              <i data-lucide="compass" class="w-4 h-4"></i>
+            </div>
+            <h3 class="text-sm font-display font-bold text-white">Playmaking Coefficient</h3>
+            <p class="text-xs text-zinc-400 font-mono leading-relaxed">+€2.21M valuation increase per assist created for teammates.</p>
+          </div>
+
+          <!-- 3 -->
+          <div class="glass-card p-5 rounded-2xl border border-white/10 space-y-2">
+            <div class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-white">
+              <i data-lucide="clock" class="w-4 h-4"></i>
+            </div>
+            <h3 class="text-sm font-display font-bold text-white">Durability & Minutes</h3>
+            <p class="text-xs text-zinc-400 font-mono leading-relaxed">+€4.37M per 1,000 league minutes played (reflects starter trust).</p>
+          </div>
+
+          <!-- 4 -->
+          <div class="glass-card p-5 rounded-2xl border border-white/10 space-y-2">
+            <div class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-white">
+              <i data-lucide="trending-down" class="w-4 h-4"></i>
+            </div>
+            <h3 class="text-sm font-display font-bold text-white">Age Depreciation Curve</h3>
+            <p class="text-xs text-zinc-400 font-mono leading-relaxed">-€3.81M depreciation per year of age as resale window narrows.</p>
+          </div>
+
+          <!-- 5 -->
+          <div class="glass-card p-5 rounded-2xl border border-white/10 space-y-2">
+            <div class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-white">
+              <i data-lucide="layers" class="w-4 h-4"></i>
+            </div>
+            <h3 class="text-sm font-display font-bold text-white">Positional Baseline</h3>
+            <p class="text-xs text-zinc-400 font-mono leading-relaxed">Categorical encoding separating Forward, Midfield, Defence, and GK baselines.</p>
+          </div>
+
+          <!-- 6 -->
+          <div class="glass-card p-5 rounded-2xl border border-white/10 space-y-2">
+            <div class="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-white">
+              <i data-lucide="sparkles" class="w-4 h-4"></i>
+            </div>
+            <h3 class="text-sm font-display font-bold text-white">Youth Resale Premium</h3>
+            <p class="text-xs text-zinc-400 font-mono leading-relaxed">Steep upside multiplier awarded to teenage and U23 breakout stars.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Tools & Technologies Stack Card (Matching Reference) -->
+      <div class="lg:col-span-5 space-y-6">
+        <div class="pb-3 border-b border-zinc-800">
+          <span class="text-xs font-mono uppercase tracking-widest text-zinc-500 block mb-1">INFRASTRUCTURE</span>
+          <h2 class="text-xl sm:text-2xl font-display font-extrabold text-white tracking-tight uppercase">Tools & Technologies</h2>
+        </div>
+
+        <div class="glass-card p-6 rounded-2xl border border-white/10 space-y-5">
+          <div class="grid grid-cols-2 gap-3 text-xs font-mono">
+            <div class="p-3 rounded-xl bg-dark-950 border border-white/5 flex items-center gap-2.5">
+              <i data-lucide="globe" class="w-4 h-4 text-zinc-400"></i>
+              <div>
+                <span class="text-white font-bold block">football-data.org</span>
+                <span class="text-[10px] text-zinc-500">Live API v4</span>
+              </div>
+            </div>
+
+            <div class="p-3 rounded-xl bg-dark-950 border border-white/5 flex items-center gap-2.5">
+              <i data-lucide="cpu" class="w-4 h-4 text-zinc-400"></i>
+              <div>
+                <span class="text-white font-bold block">scikit-learn</span>
+                <span class="text-[10px] text-zinc-500">LinearRegression</span>
+              </div>
+            </div>
+
+            <div class="p-3 rounded-xl bg-dark-950 border border-white/5 flex items-center gap-2.5">
+              <i data-lucide="table" class="w-4 h-4 text-zinc-400"></i>
+              <div>
+                <span class="text-white font-bold block">pandas</span>
+                <span class="text-[10px] text-zinc-500">Multi-Season DB</span>
+              </div>
+            </div>
+
+            <div class="p-3 rounded-xl bg-dark-950 border border-white/5 flex items-center gap-2.5">
+              <i data-lucide="send" class="w-4 h-4 text-zinc-400"></i>
+              <div>
+                <span class="text-white font-bold block">requests</span>
+                <span class="text-[10px] text-zinc-500">Live HTTP Client</span>
+              </div>
+            </div>
+
+            <div class="p-3 rounded-xl bg-dark-950 border border-white/5 flex items-center gap-2.5">
+              <i data-lucide="line-chart" class="w-4 h-4 text-zinc-400"></i>
+              <div>
+                <span class="text-white font-bold block">matplotlib</span>
+                <span class="text-[10px] text-zinc-500">Diagnostics Plots</span>
+              </div>
+            </div>
+
+            <div class="p-3 rounded-xl bg-dark-950 border border-white/5 flex items-center gap-2.5">
+              <i data-lucide="zap" class="w-4 h-4 text-zinc-400"></i>
+              <div>
+                <span class="text-white font-bold block">FastAPI</span>
+                <span class="text-[10px] text-zinc-500">Async Microservice</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formula Certificate Card -->
+          <div class="p-4 rounded-xl bg-white/[0.02] border border-white/10 space-y-1.5 font-mono text-xs">
+            <span class="text-[10px] uppercase text-zinc-500 font-bold block">Trained Mathematical Formula:</span>
+            <div class="text-white font-bold break-all">
+              ŷ = 119.92 + 3.27(G) + 2.21(A) + 0.0044(M) - 3.81(Age) + Pos
+            </div>
+            <div class="text-[11px] text-zinc-400 pt-1">
+              MAE: €19.73M | Test R²: 0.329 | Baseline: €119.92M
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- PROCESS STRIP (MATCHING "MY DESIGN PROCESS" IN REFERENCE) -->
+  <!-- ========================================================= -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-28">
+    <div class="glass-card rounded-2xl p-6 sm:p-8 border border-white/10">
+      <div class="pb-4 mb-6 border-b border-zinc-800">
+        <span class="text-xs font-mono uppercase tracking-widest text-zinc-500 block mb-1">WORKFLOW</span>
+        <h3 class="text-lg font-display font-bold text-white uppercase">Machine Learning Valuation Pipeline</h3>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-5 gap-6 text-xs font-mono">
+        <div class="space-y-1">
+          <span class="text-zinc-500">01 INGESTION</span>
+          <h4 class="text-sm font-bold text-white">Live API Sync</h4>
+          <p class="text-zinc-400 text-[11px]">football-data.org REST queries for scorers, matches & squads.</p>
+        </div>
+        <div class="space-y-1">
+          <span class="text-zinc-500">02 PIPELINE</span>
+          <h4 class="text-sm font-bold text-white">Data Cleaning</h4>
+          <p class="text-zinc-400 text-[11px]">Categorical one-hot encoding & minute normalization in pandas.</p>
+        </div>
+        <div class="space-y-1">
+          <span class="text-zinc-500">03 MODEL</span>
+          <h4 class="text-sm font-bold text-white">Linear Regressor</h4>
+          <p class="text-zinc-400 text-[11px]">scikit-learn fit with ColumnTransformer preventing leakage.</p>
+        </div>
+        <div class="space-y-1">
+          <span class="text-zinc-500">04 EVALUATION</span>
+          <h4 class="text-sm font-bold text-white">Metric Auditing</h4>
+          <p class="text-zinc-400 text-[11px]">R² calculation, MAE benchmark and residuals normality checks.</p>
+        </div>
+        <div class="space-y-1">
+          <span class="text-zinc-500">05 INFERENCE</span>
+          <h4 class="text-sm font-bold text-white">Live Prediction</h4>
+          <p class="text-zinc-400 text-[11px]">Real-time algebraic valuation & waterfall decomposition.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION: LIVE DATABASE ROSTER -->
+  <!-- ========================================================= -->
+  <section id="database" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-28">
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 mb-6 pb-4 border-b border-zinc-800">
+      <div>
+        <span class="text-xs font-mono uppercase tracking-widest text-zinc-500 block mb-1">FULL DATABASE</span>
+        <h2 class="text-2xl sm:text-3xl font-display font-extrabold text-white tracking-tight uppercase">Premier League Players</h2>
+      </div>
+
+      <!-- Filters -->
+      <div class="flex flex-wrap items-center gap-3 w-full sm:w-auto">
+        <input 
+          type="text" 
+          id="dbSearchInput" 
+          placeholder="Filter players or clubs..."
+          class="bg-dark-950 border border-zinc-700 rounded-xl px-3 py-2 text-xs font-mono text-white placeholder-zinc-500 focus:outline-none focus:ring-1 focus:ring-white w-full sm:w-48"
+          oninput="filterDatabase()"
+        />
+        <select id="dbPosFilter" class="bg-dark-950 border border-zinc-700 text-white text-xs font-mono rounded-xl px-3 py-2" onchange="filterDatabase()">
+          <option value="All">All Positions</option>
+          <option value="Forward">Forwards</option>
+          <option value="Midfielder">Midfielders</option>
+          <option value="Defender">Defenders</option>
+          <option value="Goalkeeper">Goalkeepers</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Table -->
+    <div class="glass-card rounded-2xl border border-white/10 overflow-hidden shadow-2xl">
+      <div class="overflow-x-auto max-h-[500px] overflow-y-auto">
+        <table class="w-full text-left text-xs font-mono">
+          <thead class="uppercase bg-dark-950 text-zinc-400 border-b border-zinc-800 sticky top-0 backdrop-blur z-20">
+            <tr>
+              <th class="px-5 py-3">Player</th>
+              <th class="px-4 py-3">Club</th>
+              <th class="px-3 py-3">Pos</th>
+              <th class="px-3 py-3 text-center">Age</th>
+              <th class="px-3 py-3 text-center">G</th>
+              <th class="px-3 py-3 text-center">A</th>
+              <th class="px-3 py-3 text-center">Mins</th>
+              <th class="px-4 py-3 text-right">Actual (€M)</th>
+              <th class="px-4 py-3 text-right">Predicted (€M)</th>
+              <th class="px-4 py-3 text-right">Delta</th>
+              <th class="px-4 py-3 text-center">Action</th>
+            </tr>
+          </thead>
+          <tbody id="dbTableBody" class="divide-y divide-zinc-800/60">
+            <!-- Populated via JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- SECTION: DIAGNOSTICS (MATPLOTLIB PLOTS) -->
+  <!-- ========================================================= -->
+  <section id="diagnostics" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-28">
+    <div class="mb-8 pb-4 border-b border-zinc-800">
+      <span class="text-xs font-mono uppercase tracking-widest text-zinc-500 block mb-1">STATISTICAL PROOFS</span>
+      <h2 class="text-2xl sm:text-3xl font-display font-extrabold text-white tracking-tight uppercase">Matplotlib Diagnostic Charts</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="glass-card p-4 rounded-2xl border border-white/10 space-y-2">
+        <h4 class="text-xs font-mono text-zinc-300 font-bold uppercase">1. Actual vs. Predicted Values (Fit Line)</h4>
+        <img src="/visualizations/actual_vs_predicted.png" alt="Actual vs Predicted" class="w-full rounded-xl border border-zinc-800">
+      </div>
+      <div class="glass-card p-4 rounded-2xl border border-white/10 space-y-2">
+        <h4 class="text-xs font-mono text-zinc-300 font-bold uppercase">2. Feature Coefficients Bar Chart</h4>
+        <img src="/visualizations/feature_coefficients.png" alt="Feature Coefficients" class="w-full rounded-xl border border-zinc-800">
+      </div>
+      <div class="glass-card p-4 rounded-2xl border border-white/10 space-y-2">
+        <h4 class="text-xs font-mono text-zinc-300 font-bold uppercase">3. Prediction Error Residuals</h4>
+        <img src="/visualizations/residuals_distribution.png" alt="Residuals" class="w-full rounded-xl border border-zinc-800">
+      </div>
+      <div class="glass-card p-4 rounded-2xl border border-white/10 space-y-2">
+        <h4 class="text-xs font-mono text-zinc-300 font-bold uppercase">4. Market Value vs. Key Drivers</h4>
+        <img src="/visualizations/value_relationships.png" alt="Relationships" class="w-full rounded-xl border border-zinc-800">
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================= -->
+  <!-- BOTTOM HERO BANNER (MATCHING REFERENCE FOOTER BANNER) -->
+  <!-- ========================================================= -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+    <div class="rounded-3xl p-8 sm:p-12 relative overflow-hidden bg-gradient-to-r from-zinc-800 via-zinc-900 to-black border border-white/15 shadow-2xl">
+      <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
+      
+      <div class="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+        <div class="space-y-3">
+          <div class="flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-zinc-400">
+            <span>✦</span> Machine Learning Transfer Intelligence
+          </div>
+          <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white tracking-tight uppercase leading-tight">
+            Valuate Any Player<br>In Real-Time.
+          </h2>
+          <p class="text-sm text-zinc-400 max-w-md font-mono">
+            Powered by live Premier League match statistics from football-data.org and multiple linear regression.
+          </p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-3">
+          <a href="#simulator" class="metallic-btn px-6 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2">
+            <span>Launch Simulator</span>
+            <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+          </a>
+          <a href="#scout" class="ghost-btn px-6 py-3.5 rounded-full text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2">
+            <span>Scout Stars</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-zinc-800/80 bg-dark-950 py-8 text-xs font-mono text-zinc-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2">
+        <span class="text-white font-bold">PL VALUATION ENGINE</span>
+        <span>• Multiple Linear Regression Coursework Project</span>
+      </div>
+      <div class="flex items-center gap-4 text-zinc-400">
+        <span>requests</span>
+        <span>pandas</span>
+        <span>scikit-learn</span>
+        <span>matplotlib</span>
+        <span>FastAPI</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================= -->
+  <!-- CLIENT JAVASCRIPT ENGINE -->
+  <!-- ========================================================= -->
+  <script>
+    let allPlayers = [];
+    let livePlayers = [];
+    let modelInfo = null;
+    let selectedPosition = 'Forward';
+
+    let weights = {
+      intercept: 119.92,
+      goals: 3.27,
+      assists: 2.21,
+      minutes_played: 0.0044,
+      age: -3.81,
+      position_Forward: -29.46,
+      position_Goalkeeper: -0.45,
+      position_Midfielder: -4.92,
+    };
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      lucide.createIcons();
+      await fetchModelInfo();
+      await fetchPlayers();
+      selectPlayer('Cole Palmer');
+      runCalculator();
+    });
+
+    async function fetchModelInfo() {
+      try {
+        const res = await fetch('/api/model-info');
+        if (res.ok) {
+          modelInfo = await res.json();
+          if (modelInfo.coefficients) {
+            weights = { intercept: modelInfo.intercept, ...modelInfo.coefficients };
+          }
+        }
+      } catch (e) {
+        console.warn(e);
+      }
+    }
+
+    async function fetchPlayers() {
+      try {
+        const [resDb, resLive] = await Promise.all([
+          fetch('/api/players?limit=250'),
+          fetch('/api/live-players?limit=100')
+        ]);
+        if (resDb.ok) allPlayers = await resDb.json();
+        if (resLive.ok) livePlayers = await resLive.json();
+
+        // Merge live players for search
+        renderDatabaseTable(allPlayers);
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    function handleSearchInput(e) {
+      const q = e.target.value.trim().toLowerCase();
+      const dd = document.getElementById('searchDropdown');
+      if (!q || q.length < 2) {
+        dd.classList.add('hidden');
+        return;
+      }
+
+      // Search both live and historical database
+      const pool = [...allPlayers, ...livePlayers.map(lp => ({
+        player_name: lp.player_name,
+        team: lp.team,
+        position: lp.position,
+        actual_value_eur_m: lp.predicted_value_eur_m,
+        is_live: true,
+      }))];
+
+      const matches = pool.filter(p => 
+        p.player_name.toLowerCase().includes(q) || p.team.toLowerCase().includes(q)
+      ).slice(0, 8);
+
+      if (matches.length === 0) {
+        dd.innerHTML = '<div class="p-3 text-xs text-zinc-500 font-mono">No players found</div>';
+        dd.classList.remove('hidden');
+        return;
+      }
+
+      dd.innerHTML = matches.map(p => `
+        <div onclick="selectPlayer('${p.player_name.replace(/'/g, "\\'")}')" class="p-3 hover:bg-white/5 cursor-pointer flex items-center justify-between text-xs font-mono transition">
+          <div>
+            <span class="font-bold text-white">${p.player_name}</span>
+            <span class="text-zinc-500 ml-2">${p.team} (${p.position})</span>
+            ${p.is_live ? '<span class="ml-1 text-[10px] text-emerald-400 font-bold">[LIVE API]</span>' : ''}
+          </div>
+          <span class="text-white font-bold">€${p.actual_value_eur_m.toFixed(1)}M</span>
+        </div>
+      `).join('');
+      dd.classList.remove('hidden');
+    }
+
+    async function selectPlayer(name) {
+      document.getElementById('searchDropdown').classList.add('hidden');
+      document.getElementById('playerSearchInput').value = name;
+
+      try {
+        const res = await fetch(`/api/player/${encodeURIComponent(name)}`);
+        if (!res.ok) return;
+        const data = await res.json();
+        renderPlayerCard(data);
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    function renderPlayerCard(data) {
+      const stats = data.stats;
+      const actual = data.actual_value_eur_m;
+      const pred = data.predicted_value_eur_m;
+      const diff = data.diff_eur_m;
+      const pctDiff = data.pct_diff;
+
+      document.getElementById('cardPlayerName').textContent = data.player_name;
+      document.getElementById('cardPlayerClub').textContent = `${data.team} • ${data.season}`;
+      document.getElementById('cardPositionBadge').textContent = stats.position;
+
+      // Initials or Crest
+      const avatarEl = document.getElementById('playerAvatar');
+      if (data.team_crest) {
+        avatarEl.innerHTML = `<img src="${data.team_crest}" alt="${data.team}" class="w-10 h-10 object-contain">`;
+      } else {
+        const initials = data.player_name.split(' ').map(n => n[0]).join('').slice(0, 2);
+        avatarEl.textContent = initials;
+      }
+
+      document.getElementById('cardActualValue').textContent = `€${actual.toFixed(1)}M`;
+      document.getElementById('cardPredictedValue').textContent = `€${pred.toFixed(1)}M`;
+
+      const deltaEl = document.getElementById('cardDeltaValue');
+      const deltaPctEl = document.getElementById('cardDeltaPct');
+      const badgeEl = document.getElementById('cardStatusBadge');
+
+      const sign = diff >= 0 ? '+' : '';
+      deltaEl.textContent = `${sign}€${diff.toFixed(1)}M`;
+      deltaPctEl.textContent = `${sign}${pctDiff.toFixed(1)}% vs. Market Benchmark`;
+
+      if (Math.abs(pctDiff) <= 15.0) {
+        deltaEl.className = "text-2xl sm:text-3xl font-display font-extrabold text-blue-400 font-mono mt-1 block";
+        badgeEl.className = "px-3.5 py-1.5 rounded-full text-xs font-mono font-bold flex items-center gap-2 bg-blue-500/10 text-blue-400 border border-blue-500/20";
+        badgeEl.innerHTML = `<i data-lucide="check-circle" class="w-3.5 h-3.5"></i> Fairly Valued`;
+      } else if (diff < 0) {
+        deltaEl.className = "text-2xl sm:text-3xl font-display font-extrabold text-rose-400 font-mono mt-1 block";
+        badgeEl.className = "px-3.5 py-1.5 rounded-full text-xs font-mono font-bold flex items-center gap-2 bg-rose-500/10 text-rose-400 border border-rose-500/20";
+        badgeEl.innerHTML = `<i data-lucide="alert-circle" class="w-3.5 h-3.5"></i> Market Premium (-€${Math.abs(diff).toFixed(1)}M)`;
+      } else {
+        deltaEl.className = "text-2xl sm:text-3xl font-display font-extrabold text-emerald-400 font-mono mt-1 block";
+        badgeEl.className = "px-3.5 py-1.5 rounded-full text-xs font-mono font-bold flex items-center gap-2 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20";
+        badgeEl.innerHTML = `<i data-lucide="trending-up" class="w-3.5 h-3.5"></i> Arbitrage Bargain (+€${diff.toFixed(1)}M)`;
+      }
+
+      document.getElementById('cardStatGoals').textContent = stats.goals;
+      document.getElementById('cardStatAssists').textContent = stats.assists;
+      document.getElementById('cardStatMinutes').textContent = Number(stats.minutes_played).toLocaleString() + 'm';
+      document.getElementById('cardStatAge').textContent = `${stats.age} yrs`;
+
+      // Waterfall
+      const listEl = document.getElementById('cardDecompositionList');
+      if (data.explanation && data.explanation.contributions) {
+        listEl.innerHTML = Object.entries(data.explanation.contributions).map(([k, v]) => {
+          const s = v >= 0 ? '+' : '';
+          const col = v >= 0 ? 'text-emerald-400' : 'text-rose-400';
+          return `
+            <div class="flex justify-between py-1 border-b border-zinc-800/80">
+              <span class="text-zinc-400">${k}</span>
+              <span class="${col} font-bold">${s}€${v.toFixed(2)}M</span>
+            </div>
+          `;
+        }).join('') + `
+          <div class="flex justify-between pt-2 text-white font-bold text-xs">
+            <span>Model Estimated Valuation</span>
+            <span class="text-white">€${pred.toFixed(1)}M</span>
+          </div>
+        `;
+      }
+      lucide.createIcons();
+    }
+
+    // Simulator
+    function setCalcPosition(pos) {
+      selectedPosition = pos;
+      document.querySelectorAll('.calc-pos-btn').forEach(b => {
+        b.className = "calc-pos-btn py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-white/5 text-zinc-400 hover:text-white border border-white/10 transition";
+      });
+      const act = document.getElementById(`calc-pos-${pos}`);
+      if (act) {
+        act.className = "calc-pos-btn py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-white text-black transition";
+      }
+      runCalculator();
+    }
+
+    function runCalculator() {
+      const age = parseInt(document.getElementById('calcAge').value);
+      const goals = parseInt(document.getElementById('calcGoals').value);
+      const assists = parseInt(document.getElementById('calcAssists').value);
+      const minutes = parseInt(document.getElementById('calcMinutes').value);
+
+      document.getElementById('calcAgeDisplay').textContent = `${age} yrs`;
+      document.getElementById('calcGoalsDisplay').textContent = `${goals}`;
+      document.getElementById('calcAssistsDisplay').textContent = `${assists}`;
+      document.getElementById('calcMinutesDisplay').textContent = `${minutes.toLocaleString()}m (${Math.round(minutes/90)} matches)`;
+
+      const intercept = weights.intercept;
+      const goalsContrib = goals * (weights.goals || 3.27);
+      const assistsContrib = assists * (weights.assists || 2.21);
+      const minsContrib = minutes * (weights.minutes_played || 0.0044);
+      const ageContrib = age * (weights.age || -3.81);
+
+      const posKey = `position_${selectedPosition}`;
+      const posContrib = weights[posKey] !== undefined ? weights[posKey] : 0.0;
+
+      const rawVal = intercept + goalsContrib + assistsContrib + minsContrib + ageContrib + posContrib;
+      const finalVal = Math.max(0.5, rawVal);
+
+      document.getElementById('calcResultValue').textContent = `€${finalVal.toFixed(1)}M`;
+
+      const wf = document.getElementById('calcWaterfall');
+      const rows = [
+        { label: 'Base Constant (b₀)', val: intercept },
+        { label: `Goals (${goals} × €${(weights.goals||3.27).toFixed(2)}M)`, val: goalsContrib },
+        { label: `Assists (${assists} × €${(weights.assists||2.21).toFixed(2)}M)`, val: assistsContrib },
+        { label: `Match Durability (${minutes}m)`, val: minsContrib },
+        { label: `Age Factor (${age} × €${(weights.age||-3.81).toFixed(2)}M)`, val: ageContrib },
+        { label: `Positional Adjustment (${selectedPosition})`, val: posContrib },
+      ];
+
+      wf.innerHTML = rows.map(r => {
+        const s = r.val >= 0 ? '+' : '';
+        const c = r.val >= 0 ? 'text-emerald-400' : 'text-rose-400';
+        return `
+          <div class="flex justify-between py-1 border-b border-zinc-800/80">
+            <span class="text-zinc-400">${r.label}</span>
+            <span class="${c} font-bold">${s}€${r.val.toFixed(2)}M</span>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function applyPreset(p) {
+      if (p === 'wonderkid') {
+        setCalcPosition('Forward');
+        document.getElementById('calcAge').value = 19;
+        document.getElementById('calcGoals').value = 14;
+        document.getElementById('calcAssists').value = 7;
+        document.getElementById('calcMinutes').value = 2400;
+      } else if (p === 'veteran') {
+        setCalcPosition('Forward');
+        document.getElementById('calcAge').value = 33;
+        document.getElementById('calcGoals').value = 18;
+        document.getElementById('calcAssists').value = 3;
+        document.getElementById('calcMinutes').value = 2600;
+      } else if (p === 'engine') {
+        setCalcPosition('Midfielder');
+        document.getElementById('calcAge').value = 25;
+        document.getElementById('calcGoals').value = 7;
+        document.getElementById('calcAssists').value = 9;
+        document.getElementById('calcMinutes').value = 3100;
+      } else if (p === 'rock') {
+        setCalcPosition('Defender');
+        document.getElementById('calcAge').value = 23;
+        document.getElementById('calcGoals').value = 3;
+        document.getElementById('calcAssists').value = 1;
+        document.getElementById('calcMinutes').value = 3200;
+      }
+      runCalculator();
+    }
+
+    function renderDatabaseTable(players) {
+      const tb = document.getElementById('dbTableBody');
+      tb.innerHTML = players.map(p => {
+        const sign = p.diff_eur_m >= 0 ? '+' : '';
+        const col = p.diff_eur_m >= 0 ? 'text-emerald-400' : 'text-rose-400';
+        return `
+          <tr class="hover:bg-white/[0.02] transition">
+            <td class="px-5 py-3 font-bold text-white">${p.player_name}</td>
+            <td class="px-4 py-3 text-zinc-400">${p.team}</td>
+            <td class="px-3 py-3"><span class="px-2 py-0.5 rounded bg-white/5 text-zinc-300 text-[10px]">${p.position}</span></td>
+            <td class="px-3 py-3 text-center text-zinc-300">${p.age}</td>
+            <td class="px-3 py-3 text-center text-zinc-300">${p.goals}</td>
+            <td class="px-3 py-3 text-center text-zinc-300">${p.assists}</td>
+            <td class="px-3 py-3 text-center text-zinc-400">${p.minutes_played.toLocaleString()}</td>
+            <td class="px-4 py-3 text-right text-zinc-300 font-bold">€${p.actual_value_eur_m.toFixed(1)}M</td>
+            <td class="px-4 py-3 text-right text-white font-bold">€${p.predicted_value_eur_m.toFixed(1)}M</td>
+            <td class="px-4 py-3 text-right ${col} font-bold">${sign}€${p.diff_eur_m.toFixed(1)}M</td>
+            <td class="px-4 py-3 text-center">
+              <button onclick="inspectFromTable('${p.player_name.replace(/'/g, "\\'")}')" class="px-2.5 py-1 bg-white/10 hover:bg-white hover:text-black rounded text-[11px] font-bold transition">
+                Scout
+              </button>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function filterDatabase() {
+      const q = document.getElementById('dbSearchInput').value.trim().toLowerCase();
+      const pos = document.getElementById('dbPosFilter').value;
+
+      const filtered = allPlayers.filter(p => {
+        const matchQ = !q || p.player_name.toLowerCase().includes(q) || p.team.toLowerCase().includes(q);
+        const matchPos = (pos === 'All') || (p.position === pos);
+        return matchQ && matchPos;
+      });
+      renderDatabaseTable(filtered);
+    }
+
+    function inspectFromTable(name) {
+      selectPlayer(name);
+      document.getElementById('scout').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

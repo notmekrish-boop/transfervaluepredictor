@@ -1,0 +1,4396 @@
+[
+  {
+    "player_name": "Erling Haaland",
+    "team": "Man City",
+    "team_crest": "https://crests.football-data.org/65.png",
+    "position": "Forward",
+    "age": 26,
+    "goals": 9,
+    "assists": 0,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 24.1,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (9 \u00d7 \u20ac3.27M)": 29.39499641958355,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 24.134217033395306,
+      "final_predicted_value_eur_m": 24.134217033395306
+    }
+  },
+  {
+    "player_name": "Thierno Barry",
+    "team": "Everton",
+    "team_crest": "https://crests.football-data.org/62.png",
+    "position": "Forward",
+    "age": 26,
+    "goals": 6,
+    "assists": 1,
+    "minutes_played": 850,
+    "played_matches": 10,
+    "predicted_value_eur_m": 16.9,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (6 \u00d7 \u20ac3.27M)": 19.596664279722365,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (850m \u00d7 \u20ac0.0044M)": 3.714355478577036,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 16.921967275169028,
+      "final_predicted_value_eur_m": 16.921967275169028
+    }
+  },
+  {
+    "player_name": "Alexander Isak",
+    "team": "Liverpool",
+    "team_crest": "https://crests.football-data.org/64.png",
+    "position": "Forward",
+    "age": 27,
+    "goals": 6,
+    "assists": 0,
+    "minutes_played": 680,
+    "played_matches": 8,
+    "predicted_value_eur_m": 10.2,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (6 \u00d7 \u20ac3.27M)": 19.596664279722365,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (680m \u00d7 \u20ac0.0044M)": 2.971484382861629,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 10.154432609303871,
+      "final_predicted_value_eur_m": 10.154432609303871
+    }
+  },
+  {
+    "player_name": "Marcus Tavernier",
+    "team": "Bournemouth",
+    "team_crest": "https://crests.football-data.org/bournemouth.png",
+    "position": "Forward",
+    "age": 27,
+    "goals": 5,
+    "assists": 0,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 7.3,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (5 \u00d7 \u20ac3.27M)": 16.330553566435306,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 7.259757443874481,
+      "final_predicted_value_eur_m": 7.259757443874481
+    }
+  },
+  {
+    "player_name": "Jo\u00e3o Pedro",
+    "team": "Chelsea",
+    "team_crest": "https://crests.football-data.org/61.png",
+    "position": "Forward",
+    "age": 25,
+    "goals": 5,
+    "assists": 3,
+    "minutes_played": 510,
+    "played_matches": 6,
+    "predicted_value_eur_m": 20.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (5 \u00d7 \u20ac3.27M)": 16.330553566435306,
+        "Assists (3 \u00d7 \u20ac2.21M)": 6.643940501331532,
+        "Minutes Played (510m \u00d7 \u20ac0.0044M)": 2.2286132871462216,
+        "Age (25 yrs \u00d7 \u20ac-3.81M)": -95.2504184093143,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 20.409424774378085,
+      "final_predicted_value_eur_m": 20.409424774378085
+    }
+  },
+  {
+    "player_name": "Morgan Rogers",
+    "team": "Chelsea",
+    "team_crest": "https://crests.football-data.org/61.png",
+    "position": "Midfielder",
+    "age": 24,
+    "goals": 5,
+    "assists": 1,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 45.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (5 \u00d7 \u20ac3.27M)": 16.330553566435306,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 45.45218657058599,
+      "final_predicted_value_eur_m": 45.45218657058599
+    }
+  },
+  {
+    "player_name": "Nicolas Jackson",
+    "team": "Aston Villa",
+    "team_crest": "https://crests.football-data.org/58.png",
+    "position": "Forward",
+    "age": 25,
+    "goals": 5,
+    "assists": 0,
+    "minutes_played": 680,
+    "played_matches": 8,
+    "predicted_value_eur_m": 14.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (5 \u00d7 \u20ac3.27M)": 16.330553566435306,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (680m \u00d7 \u20ac0.0044M)": 2.971484382861629,
+        "Age (25 yrs \u00d7 \u20ac-3.81M)": -95.2504184093143,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 14.508355368761944,
+      "final_predicted_value_eur_m": 14.508355368761944
+    }
+  },
+  {
+    "player_name": "Rayan Cherki",
+    "team": "Man City",
+    "team_crest": "https://crests.football-data.org/65.png",
+    "position": "Midfielder",
+    "age": 23,
+    "goals": 4,
+    "assists": 2,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 48.2,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (4 \u00d7 \u20ac3.27M)": 13.064442853148243,
+        "Assists (2 \u00d7 \u20ac2.21M)": 4.429293667554354,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (23 yrs \u00d7 \u20ac-3.81M)": -87.63038493656916,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 48.210739427448694,
+      "final_predicted_value_eur_m": 48.210739427448694
+    }
+  },
+  {
+    "player_name": "Bryan Mbeumo",
+    "team": "Man United",
+    "team_crest": "https://crests.football-data.org/66.png",
+    "position": "Forward",
+    "age": 27,
+    "goals": 4,
+    "assists": 0,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 4.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (4 \u00d7 \u20ac3.27M)": 13.064442853148243,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 3.9936467305874324,
+      "final_predicted_value_eur_m": 3.9936467305874324
+    }
+  },
+  {
+    "player_name": "Evanilson",
+    "team": "Bournemouth",
+    "team_crest": "https://crests.football-data.org/bournemouth.png",
+    "position": "Forward",
+    "age": 27,
+    "goals": 4,
+    "assists": 4,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 12.9,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (4 \u00d7 \u20ac3.27M)": 13.064442853148243,
+        "Assists (4 \u00d7 \u20ac2.21M)": 8.858587335108709,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 12.852234065696155,
+      "final_predicted_value_eur_m": 12.852234065696155
+    }
+  },
+  {
+    "player_name": "Kai Havertz",
+    "team": "Arsenal",
+    "team_crest": "https://crests.football-data.org/57.png",
+    "position": "Forward",
+    "age": 27,
+    "goals": 3,
+    "assists": 0,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 0.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 0.7275360173003556,
+      "final_predicted_value_eur_m": 0.7275360173003556
+    }
+  },
+  {
+    "player_name": "Bukayo Saka",
+    "team": "Arsenal",
+    "team_crest": "https://crests.football-data.org/57.png",
+    "position": "Forward",
+    "age": 25,
+    "goals": 3,
+    "assists": 0,
+    "minutes_played": 595,
+    "played_matches": 7,
+    "predicted_value_eur_m": 7.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (595m \u00d7 \u20ac0.0044M)": 2.6000488350039253,
+        "Age (25 yrs \u00d7 \u20ac-3.81M)": -95.2504184093143,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 7.604698394330104,
+      "final_predicted_value_eur_m": 7.604698394330104
+    }
+  },
+  {
+    "player_name": "Kiernan Dewsbury Hall",
+    "team": "Everton",
+    "team_crest": "https://crests.football-data.org/62.png",
+    "position": "Midfielder",
+    "age": 28,
+    "goals": 3,
+    "assists": 1,
+    "minutes_played": 850,
+    "played_matches": 10,
+    "predicted_value_eur_m": 24.1,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (850m \u00d7 \u20ac0.0044M)": 3.714355478577036,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 24.051333746379278,
+      "final_predicted_value_eur_m": 24.051333746379278
+    }
+  },
+  {
+    "player_name": "Jack Hinshelwood",
+    "team": "Brighton Hove",
+    "team_crest": "https://crests.football-data.org/397.png",
+    "position": "Midfielder",
+    "age": 21,
+    "goals": 3,
+    "assists": 0,
+    "minutes_played": 340,
+    "played_matches": 4,
+    "predicted_value_eur_m": 46.3,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (340m \u00d7 \u20ac0.0044M)": 1.4857421914308144,
+        "Age (21 yrs \u00d7 \u20ac-3.81M)": -80.01035146382402,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 46.27819078006387,
+      "final_predicted_value_eur_m": 46.27819078006387
+    }
+  },
+  {
+    "player_name": "Cole Palmer",
+    "team": "Chelsea",
+    "team_crest": "https://crests.football-data.org/61.png",
+    "position": "Midfielder",
+    "age": 24,
+    "goals": 3,
+    "assists": 3,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 43.3,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (3 \u00d7 \u20ac2.21M)": 6.643940501331532,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 43.34925881156622,
+      "final_predicted_value_eur_m": 43.34925881156622
+    }
+  },
+  {
+    "player_name": "Pedro Neto",
+    "team": "Chelsea",
+    "team_crest": "https://crests.football-data.org/61.png",
+    "position": "Forward",
+    "age": 26,
+    "goals": 3,
+    "assists": 1,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 6.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 6.752199587450111,
+      "final_predicted_value_eur_m": 6.752199587450111
+    }
+  },
+  {
+    "player_name": "Pascal Gro\u00df",
+    "team": "Brighton Hove",
+    "team_crest": "https://crests.football-data.org/397.png",
+    "position": "Midfielder",
+    "age": 35,
+    "goals": 3,
+    "assists": 4,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 3.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (4 \u00d7 \u20ac2.21M)": 8.858587335108709,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (35 yrs \u00d7 \u20ac-3.81M)": -133.35058577304002,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 3.653721545245083,
+      "final_predicted_value_eur_m": 3.653721545245083
+    }
+  },
+  {
+    "player_name": "Kevin Schade",
+    "team": "Brentford",
+    "team_crest": "https://crests.football-data.org/402.png",
+    "position": "Forward",
+    "age": 24,
+    "goals": 3,
+    "assists": 0,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 12.2,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 12.15758622641808,
+      "final_predicted_value_eur_m": 12.15758622641808
+    }
+  },
+  {
+    "player_name": "Dominic Calvert-Lewin",
+    "team": "Leeds United",
+    "team_crest": "https://crests.football-data.org/341.png",
+    "position": "Forward",
+    "age": 29,
+    "goals": 3,
+    "assists": 1,
+    "minutes_played": 850,
+    "played_matches": 10,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (850m \u00d7 \u20ac0.0044M)": 3.714355478577036,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": -4.306415073809884,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Bruno Fernandes",
+    "team": "Man United",
+    "team_crest": "https://crests.football-data.org/66.png",
+    "position": "Midfielder",
+    "age": 32,
+    "goals": 3,
+    "assists": 1,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 8.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (32 yrs \u00d7 \u20ac-3.81M)": -121.92053556392231,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 8.43983125303128,
+      "final_predicted_value_eur_m": 8.43983125303128
+    }
+  },
+  {
+    "player_name": "Mohamed Belloumi",
+    "team": "Hull City",
+    "team_crest": "https://crests.football-data.org/322.png",
+    "position": "Forward",
+    "age": 24,
+    "goals": 3,
+    "assists": 2,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 16.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (2 \u00d7 \u20ac2.21M)": 4.429293667554354,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 16.58687989397244,
+      "final_predicted_value_eur_m": 16.58687989397244
+    }
+  },
+  {
+    "player_name": "Charalampos Kostoulas",
+    "team": "Brighton Hove",
+    "team_crest": "https://crests.football-data.org/397.png",
+    "position": "Forward",
+    "age": 19,
+    "goals": 3,
+    "assists": 2,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 35.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (2 \u00d7 \u20ac2.21M)": 4.429293667554354,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (19 yrs \u00d7 \u20ac-3.81M)": -72.39031799107887,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 35.636963575835296,
+      "final_predicted_value_eur_m": 35.636963575835296
+    }
+  },
+  {
+    "player_name": "Yasin Ayari",
+    "team": "Brighton Hove",
+    "team_crest": "https://crests.football-data.org/397.png",
+    "position": "Midfielder",
+    "age": 23,
+    "goals": 3,
+    "assists": 1,
+    "minutes_played": 680,
+    "played_matches": 8,
+    "predicted_value_eur_m": 42.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (680m \u00d7 \u20ac0.0044M)": 2.971484382861629,
+        "Age (23 yrs \u00d7 \u20ac-3.81M)": -87.63038493656916,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 42.35854633252675,
+      "final_predicted_value_eur_m": 42.35854633252675
+    }
+  },
+  {
+    "player_name": "Brian Brobbey",
+    "team": "Sunderland",
+    "team_crest": "https://crests.football-data.org/71.png",
+    "position": "Forward",
+    "age": 24,
+    "goals": 3,
+    "assists": 0,
+    "minutes_played": 595,
+    "played_matches": 7,
+    "predicted_value_eur_m": 11.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (595m \u00d7 \u20ac0.0044M)": 2.6000488350039253,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 11.414715130702678,
+      "final_predicted_value_eur_m": 11.414715130702678
+    }
+  },
+  {
+    "player_name": "Jack Rudoni",
+    "team": "Coventry City",
+    "team_crest": "https://crests.football-data.org/1076.png",
+    "position": "Midfielder",
+    "age": 25,
+    "goals": 3,
+    "assists": 0,
+    "minutes_played": 850,
+    "played_matches": 10,
+    "predicted_value_eur_m": 33.3,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (3 \u00d7 \u20ac3.27M)": 9.798332139861182,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (850m \u00d7 \u20ac0.0044M)": 3.714355478577036,
+        "Age (25 yrs \u00d7 \u20ac-3.81M)": -95.2504184093143,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 33.26673712171982,
+      "final_predicted_value_eur_m": 33.26673712171982
+    }
+  },
+  {
+    "player_name": "Martin \u00d8degaard",
+    "team": "Arsenal",
+    "team_crest": "https://crests.football-data.org/57.png",
+    "position": "Midfielder",
+    "age": 27,
+    "goals": 2,
+    "assists": 0,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 22.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 22.00915738782991,
+      "final_predicted_value_eur_m": 22.00915738782991
+    }
+  },
+  {
+    "player_name": "Emersonn",
+    "team": "Ipswich Town",
+    "team_crest": "https://crests.football-data.org/349.png",
+    "position": "Forward",
+    "age": 22,
+    "goals": 2,
+    "assists": 1,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 18.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (22 yrs \u00d7 \u20ac-3.81M)": -83.8203682001966,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 18.726155819653346,
+      "final_predicted_value_eur_m": 18.726155819653346
+    }
+  },
+  {
+    "player_name": "Keane Lewis-Potter",
+    "team": "Brentford",
+    "team_crest": "https://crests.football-data.org/402.png",
+    "position": "Defender",
+    "age": 25,
+    "goals": 2,
+    "assists": 1,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 36.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (25 yrs \u00d7 \u20ac-3.81M)": -95.2504184093143,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 36.76004983137443,
+      "final_predicted_value_eur_m": 36.76004983137443
+    }
+  },
+  {
+    "player_name": "Vitaly Janelt",
+    "team": "Brentford",
+    "team_crest": "https://crests.football-data.org/402.png",
+    "position": "Midfielder",
+    "age": 28,
+    "goals": 2,
+    "assists": 0,
+    "minutes_played": 680,
+    "played_matches": 8,
+    "predicted_value_eur_m": 17.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (680m \u00d7 \u20ac0.0044M)": 2.971484382861629,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 17.827705103599648,
+      "final_predicted_value_eur_m": 17.827705103599648
+    }
+  },
+  {
+    "player_name": "Maxim De Cuyper",
+    "team": "Brighton Hove",
+    "team_crest": "https://crests.football-data.org/397.png",
+    "position": "Defender",
+    "age": 25,
+    "goals": 2,
+    "assists": 3,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 41.2,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (3 \u00d7 \u20ac2.21M)": 6.643940501331532,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (25 yrs \u00d7 \u20ac-3.81M)": -95.2504184093143,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 41.18934349892879,
+      "final_predicted_value_eur_m": 41.18934349892879
+    }
+  },
+  {
+    "player_name": "Anthony Elanga",
+    "team": "Newcastle",
+    "team_crest": "https://crests.football-data.org/67.png",
+    "position": "Forward",
+    "age": 24,
+    "goals": 2,
+    "assists": 0,
+    "minutes_played": 425,
+    "played_matches": 5,
+    "predicted_value_eur_m": 7.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (425m \u00d7 \u20ac0.0044M)": 1.857177739288518,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 7.405733321700229,
+      "final_predicted_value_eur_m": 7.405733321700229
+    }
+  },
+  {
+    "player_name": "Joe Willock",
+    "team": "Newcastle",
+    "team_crest": "https://crests.football-data.org/67.png",
+    "position": "Midfielder",
+    "age": 27,
+    "goals": 2,
+    "assists": 0,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 22.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 22.00915738782991,
+      "final_predicted_value_eur_m": 22.00915738782991
+    }
+  },
+  {
+    "player_name": "Joshua King",
+    "team": "Fulham",
+    "team_crest": "https://crests.football-data.org/63.png",
+    "position": "Midfielder",
+    "age": 19,
+    "goals": 2,
+    "assists": 1,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 54.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (19 yrs \u00d7 \u20ac-3.81M)": -72.39031799107887,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 54.70393811258767,
+      "final_predicted_value_eur_m": 54.70393811258767
+    }
+  },
+  {
+    "player_name": "Dan Ndoye",
+    "team": "Nottingham",
+    "team_crest": "https://crests.football-data.org/351.png",
+    "position": "Forward",
+    "age": 26,
+    "goals": 2,
+    "assists": 0,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 1.3,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 1.2714420403858817,
+      "final_predicted_value_eur_m": 1.2714420403858817
+    }
+  },
+  {
+    "player_name": "V\u00edctor Mu\u00f1oz",
+    "team": "Liverpool",
+    "team_crest": "https://crests.football-data.org/64.png",
+    "position": "Forward",
+    "age": 23,
+    "goals": 2,
+    "assists": 0,
+    "minutes_played": 680,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.3,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (680m \u00d7 \u20ac0.0044M)": 2.971484382861629,
+        "Age (23 yrs \u00d7 \u20ac-3.81M)": -87.63038493656916,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 12.330056701645919,
+      "final_predicted_value_eur_m": 12.330056701645919
+    }
+  },
+  {
+    "player_name": "Malick Yalcouy\u00e9",
+    "team": "Brighton Hove",
+    "team_crest": "https://crests.football-data.org/397.png",
+    "position": "Midfielder",
+    "age": 20,
+    "goals": 2,
+    "assists": 0,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 48.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (20 yrs \u00d7 \u20ac-3.81M)": -76.20033472745145,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 48.679274542437916,
+      "final_predicted_value_eur_m": 48.679274542437916
+    }
+  },
+  {
+    "player_name": "Leif Davis",
+    "team": "Ipswich Town",
+    "team_crest": "https://crests.football-data.org/349.png",
+    "position": "Defender",
+    "age": 26,
+    "goals": 2,
+    "assists": 1,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 33.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 32.95003309500186,
+      "final_predicted_value_eur_m": 32.95003309500186
+    }
+  },
+  {
+    "player_name": "Harvey Barnes",
+    "team": "Newcastle",
+    "team_crest": "https://crests.football-data.org/67.png",
+    "position": "Forward",
+    "age": 28,
+    "goals": 2,
+    "assists": 2,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (2 \u00d7 \u20ac2.21M)": 4.429293667554354,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": -1.9192977648049059,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Jayden Bogle",
+    "team": "Leeds United",
+    "team_crest": "https://crests.football-data.org/341.png",
+    "position": "Defender",
+    "age": 26,
+    "goals": 2,
+    "assists": 0,
+    "minutes_played": 850,
+    "played_matches": 10,
+    "predicted_value_eur_m": 31.1,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (850m \u00d7 \u20ac0.0044M)": 3.714355478577036,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 31.10682180908239,
+      "final_predicted_value_eur_m": 31.10682180908239
+    }
+  },
+  {
+    "player_name": "Enzo Le F\u00e9e",
+    "team": "Sunderland",
+    "team_crest": "https://crests.football-data.org/71.png",
+    "position": "Midfielder",
+    "age": 26,
+    "goals": 2,
+    "assists": 1,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 28.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 28.033820957979664,
+      "final_predicted_value_eur_m": 28.033820957979664
+    }
+  },
+  {
+    "player_name": "Tyrick Mitchell",
+    "team": "Crystal Palace",
+    "team_crest": "https://crests.football-data.org/354.png",
+    "position": "Defender",
+    "age": 27,
+    "goals": 2,
+    "assists": 0,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 26.9,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 26.9253695248521,
+      "final_predicted_value_eur_m": 26.9253695248521
+    }
+  },
+  {
+    "player_name": "Zian Flemming",
+    "team": "Ipswich Town",
+    "team_crest": "https://crests.football-data.org/349.png",
+    "position": "Forward",
+    "age": 28,
+    "goals": 2,
+    "assists": 0,
+    "minutes_played": 595,
+    "played_matches": 7,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (595m \u00d7 \u20ac0.0044M)": 2.6000488350039253,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": -7.091462528074668,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Bruno Guimar\u00e3es",
+    "team": "Arsenal",
+    "team_crest": "https://crests.football-data.org/57.png",
+    "position": "Midfielder",
+    "age": 28,
+    "goals": 2,
+    "assists": 0,
+    "minutes_played": 680,
+    "played_matches": 8,
+    "predicted_value_eur_m": 17.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (680m \u00d7 \u20ac0.0044M)": 2.971484382861629,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 17.827705103599648,
+      "final_predicted_value_eur_m": 17.827705103599648
+    }
+  },
+  {
+    "player_name": "Thiago",
+    "team": "Brentford",
+    "team_crest": "https://crests.football-data.org/402.png",
+    "position": "Forward",
+    "age": 25,
+    "goals": 2,
+    "assists": 2,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 9.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (2 \u00d7 \u20ac2.21M)": 4.429293667554354,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (25 yrs \u00d7 \u20ac-3.81M)": -95.2504184093143,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 9.510752444312818,
+      "final_predicted_value_eur_m": 9.510752444312818
+    }
+  },
+  {
+    "player_name": "Johan Manzambi",
+    "team": "Aston Villa",
+    "team_crest": "https://crests.football-data.org/58.png",
+    "position": "Midfielder",
+    "age": 21,
+    "goals": 2,
+    "assists": 3,
+    "minutes_played": 510,
+    "played_matches": 6,
+    "predicted_value_eur_m": 50.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (3 \u00d7 \u20ac2.21M)": 6.643940501331532,
+        "Minutes Played (510m \u00d7 \u20ac0.0044M)": 2.2286132871462216,
+        "Age (21 yrs \u00d7 \u20ac-3.81M)": -80.01035146382402,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 50.3988916638238,
+      "final_predicted_value_eur_m": 50.3988916638238
+    }
+  },
+  {
+    "player_name": "Jan Paul van Hecke",
+    "team": "Tottenham",
+    "team_crest": "https://crests.football-data.org/73.png",
+    "position": "Defender",
+    "age": 26,
+    "goals": 2,
+    "assists": 0,
+    "minutes_played": 850,
+    "played_matches": 10,
+    "predicted_value_eur_m": 31.1,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (850m \u00d7 \u20ac0.0044M)": 3.714355478577036,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 31.10682180908239,
+      "final_predicted_value_eur_m": 31.10682180908239
+    }
+  },
+  {
+    "player_name": "Antoine Semenyo",
+    "team": "Man City",
+    "team_crest": "https://crests.football-data.org/65.png",
+    "position": "Forward",
+    "age": 26,
+    "goals": 2,
+    "assists": 3,
+    "minutes_played": 595,
+    "played_matches": 7,
+    "predicted_value_eur_m": 7.2,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (3 \u00d7 \u20ac2.21M)": 6.643940501331532,
+        "Minutes Played (595m \u00d7 \u20ac0.0044M)": 2.6000488350039253,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": 7.172511446002023,
+      "final_predicted_value_eur_m": 7.172511446002023
+    }
+  },
+  {
+    "player_name": "Jordan Henderson",
+    "team": "Chelsea",
+    "team_crest": "https://crests.football-data.org/61.png",
+    "position": "Midfielder",
+    "age": 36,
+    "goals": 2,
+    "assists": 1,
+    "minutes_played": 340,
+    "played_matches": 4,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (1 \u00d7 \u20ac2.21M)": 2.214646833777177,
+        "Minutes Played (340m \u00d7 \u20ac0.0044M)": 1.4857421914308144,
+        "Age (36 yrs \u00d7 \u20ac-3.81M)": -137.1606025094126,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": -11.92352414503457,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Julio Enciso",
+    "team": "Ipswich Town",
+    "team_crest": "https://crests.football-data.org/349.png",
+    "position": "Midfielder",
+    "age": 22,
+    "goals": 2,
+    "assists": 2,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 45.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (2 \u00d7 \u20ac2.21M)": 4.429293667554354,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (22 yrs \u00d7 \u20ac-3.81M)": -83.8203682001966,
+        "Position Premium (Midfielder)": -4.916212137022193
+      },
+      "raw_sum": 45.48853473724713,
+      "final_predicted_value_eur_m": 45.48853473724713
+    }
+  },
+  {
+    "player_name": "Oliver McBurnie",
+    "team": "Hull City",
+    "team_crest": "https://crests.football-data.org/322.png",
+    "position": "Forward",
+    "age": 30,
+    "goals": 2,
+    "assists": 2,
+    "minutes_played": 765,
+    "played_matches": 9,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Matchday)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (2 \u00d7 \u20ac3.27M)": 6.532221426574122,
+        "Assists (2 \u00d7 \u20ac2.21M)": 4.429293667554354,
+        "Minutes Played (765m \u00d7 \u20ac0.0044M)": 3.3429199307193325,
+        "Age (30 yrs \u00d7 \u20ac-3.81M)": -114.30050209117717,
+        "Position Premium (Forward)": -29.463944220838794
+      },
+      "raw_sum": -9.53933123755004,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Kepa Arrizabalaga",
+    "team": "Arsenal",
+    "team_crest": "https://crests.football-data.org/57.png",
+    "position": "Goalkeeper",
+    "age": 32,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (32 yrs \u00d7 \u20ac-3.81M)": -121.92053556392231,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 0.6925181352983447,
+      "final_predicted_value_eur_m": 0.6925181352983447
+    }
+  },
+  {
+    "player_name": "David Raya",
+    "team": "Arsenal",
+    "team_crest": "https://crests.football-data.org/57.png",
+    "position": "Goalkeeper",
+    "age": 31,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 4.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (31 yrs \u00d7 \u20ac-3.81M)": -118.11051882754974,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 4.502534871670919,
+      "final_predicted_value_eur_m": 4.502534871670919
+    }
+  },
+  {
+    "player_name": "Illan Meslier",
+    "team": "Arsenal",
+    "team_crest": "https://crests.football-data.org/57.png",
+    "position": "Goalkeeper",
+    "age": 26,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 23.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 23.55261855353378,
+      "final_predicted_value_eur_m": 23.55261855353378
+    }
+  },
+  {
+    "player_name": "Ben White",
+    "team": "Arsenal",
+    "team_crest": "https://crests.football-data.org/57.png",
+    "position": "Defender",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 12.576472276667019,
+      "final_predicted_value_eur_m": 12.576472276667019
+    }
+  },
+  {
+    "player_name": "Ezri Konsa",
+    "team": "Arsenal",
+    "team_crest": "https://crests.football-data.org/57.png",
+    "position": "Defender",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 12.576472276667019,
+      "final_predicted_value_eur_m": 12.576472276667019
+    }
+  },
+  {
+    "player_name": "Gabriel Magalh\u00e3es",
+    "team": "Arsenal",
+    "team_crest": "https://crests.football-data.org/57.png",
+    "position": "Defender",
+    "age": 28,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 16.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 16.38648901303958,
+      "final_predicted_value_eur_m": 16.38648901303958
+    }
+  },
+  {
+    "player_name": "Marco Bizot",
+    "team": "Aston Villa",
+    "team_crest": "https://crests.football-data.org/58.png",
+    "position": "Goalkeeper",
+    "age": 35,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (35 yrs \u00d7 \u20ac-3.81M)": -133.35058577304002,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -10.737532073819365,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Zion Suzuki",
+    "team": "Aston Villa",
+    "team_crest": "https://crests.football-data.org/58.png",
+    "position": "Goalkeeper",
+    "age": 24,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 31.2,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 31.17265202627893,
+      "final_predicted_value_eur_m": 31.17265202627893
+    }
+  },
+  {
+    "player_name": "James Wright",
+    "team": "Aston Villa",
+    "team_crest": "https://crests.football-data.org/58.png",
+    "position": "Goalkeeper",
+    "age": 21,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 42.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (21 yrs \u00d7 \u20ac-3.81M)": -80.01035146382402,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 42.602702235396634,
+      "final_predicted_value_eur_m": 42.602702235396634
+    }
+  },
+  {
+    "player_name": "Victor Nilsson-Lindel\u00f6f",
+    "team": "Aston Villa",
+    "team_crest": "https://crests.football-data.org/58.png",
+    "position": "Defender",
+    "age": 32,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 1.1,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (32 yrs \u00d7 \u20ac-3.81M)": -121.92053556392231,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 1.1464220675492953,
+      "final_predicted_value_eur_m": 1.1464220675492953
+    }
+  },
+  {
+    "player_name": "Aaron Wan-Bissaka",
+    "team": "Aston Villa",
+    "team_crest": "https://crests.football-data.org/58.png",
+    "position": "Defender",
+    "age": 28,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 16.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 16.38648901303958,
+      "final_predicted_value_eur_m": 16.38648901303958
+    }
+  },
+  {
+    "player_name": "Tyrone Mings",
+    "team": "Aston Villa",
+    "team_crest": "https://crests.football-data.org/58.png",
+    "position": "Defender",
+    "age": 33,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (33 yrs \u00d7 \u20ac-3.81M)": -125.73055230029489,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -2.663594668823279,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Emiliano Mart\u00ednez",
+    "team": "Chelsea",
+    "team_crest": "https://crests.football-data.org/61.png",
+    "position": "Goalkeeper",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -6.92751533744679,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Gabriel Slonina",
+    "team": "Chelsea",
+    "team_crest": "https://crests.football-data.org/61.png",
+    "position": "Goalkeeper",
+    "age": 22,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 38.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (22 yrs \u00d7 \u20ac-3.81M)": -83.8203682001966,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 38.79268549902406,
+      "final_predicted_value_eur_m": 38.79268549902406
+    }
+  },
+  {
+    "player_name": "Teddy Sharman-Lowe",
+    "team": "Chelsea",
+    "team_crest": "https://crests.football-data.org/61.png",
+    "position": "Goalkeeper",
+    "age": 23,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 35.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (23 yrs \u00d7 \u20ac-3.81M)": -87.63038493656916,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 34.9826687626515,
+      "final_predicted_value_eur_m": 34.9826687626515
+    }
+  },
+  {
+    "player_name": "Mike Penders",
+    "team": "Chelsea",
+    "team_crest": "https://crests.football-data.org/61.png",
+    "position": "Goalkeeper",
+    "age": 21,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 42.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (21 yrs \u00d7 \u20ac-3.81M)": -80.01035146382402,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 42.602702235396634,
+      "final_predicted_value_eur_m": 42.602702235396634
+    }
+  },
+  {
+    "player_name": "Wesley Fofana",
+    "team": "Chelsea",
+    "team_crest": "https://crests.football-data.org/61.png",
+    "position": "Defender",
+    "age": 25,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 27.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (25 yrs \u00d7 \u20ac-3.81M)": -95.2504184093143,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 27.816539222157303,
+      "final_predicted_value_eur_m": 27.816539222157303
+    }
+  },
+  {
+    "player_name": "Reece James",
+    "team": "Chelsea",
+    "team_crest": "https://crests.football-data.org/61.png",
+    "position": "Defender",
+    "age": 26,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 24.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 24.00652248578473,
+      "final_predicted_value_eur_m": 24.00652248578473
+    }
+  },
+  {
+    "player_name": "Jordan Pickford",
+    "team": "Everton",
+    "team_crest": "https://crests.football-data.org/62.png",
+    "position": "Goalkeeper",
+    "age": 32,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (32 yrs \u00d7 \u20ac-3.81M)": -121.92053556392231,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 0.6925181352983447,
+      "final_predicted_value_eur_m": 0.6925181352983447
+    }
+  },
+  {
+    "player_name": "Thomas King",
+    "team": "Everton",
+    "team_crest": "https://crests.football-data.org/62.png",
+    "position": "Goalkeeper",
+    "age": 31,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 4.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (31 yrs \u00d7 \u20ac-3.81M)": -118.11051882754974,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 4.502534871670919,
+      "final_predicted_value_eur_m": 4.502534871670919
+    }
+  },
+  {
+    "player_name": "Mark Travers",
+    "team": "Everton",
+    "team_crest": "https://crests.football-data.org/62.png",
+    "position": "Goalkeeper",
+    "age": 27,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 19.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 19.742601817161205,
+      "final_predicted_value_eur_m": 19.742601817161205
+    }
+  },
+  {
+    "player_name": "James Tarkowski",
+    "team": "Everton",
+    "team_crest": "https://crests.football-data.org/62.png",
+    "position": "Defender",
+    "age": 33,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (33 yrs \u00d7 \u20ac-3.81M)": -125.73055230029489,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -2.663594668823279,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Ainsley Maitland-Niles",
+    "team": "Everton",
+    "team_crest": "https://crests.football-data.org/62.png",
+    "position": "Defender",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 12.576472276667019,
+      "final_predicted_value_eur_m": 12.576472276667019
+    }
+  },
+  {
+    "player_name": "Michael Keane",
+    "team": "Everton",
+    "team_crest": "https://crests.football-data.org/62.png",
+    "position": "Defender",
+    "age": 33,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (33 yrs \u00d7 \u20ac-3.81M)": -125.73055230029489,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -2.663594668823279,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Bernd Leno",
+    "team": "Fulham",
+    "team_crest": "https://crests.football-data.org/63.png",
+    "position": "Goalkeeper",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -6.92751533744679,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Benjamin Lecomte",
+    "team": "Fulham",
+    "team_crest": "https://crests.football-data.org/63.png",
+    "position": "Goalkeeper",
+    "age": 35,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (35 yrs \u00d7 \u20ac-3.81M)": -133.35058577304002,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -10.737532073819365,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Alex Borto",
+    "team": "Fulham",
+    "team_crest": "https://crests.football-data.org/63.png",
+    "position": "Goalkeeper",
+    "age": 23,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 35.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (23 yrs \u00d7 \u20ac-3.81M)": -87.63038493656916,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 34.9826687626515,
+      "final_predicted_value_eur_m": 34.9826687626515
+    }
+  },
+  {
+    "player_name": "Timothy Castagne",
+    "team": "Fulham",
+    "team_crest": "https://crests.football-data.org/63.png",
+    "position": "Defender",
+    "age": 30,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 8.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (30 yrs \u00d7 \u20ac-3.81M)": -114.30050209117717,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 8.766455540294444,
+      "final_predicted_value_eur_m": 8.766455540294444
+    }
+  },
+  {
+    "player_name": "Joachim Andersen",
+    "team": "Fulham",
+    "team_crest": "https://crests.football-data.org/63.png",
+    "position": "Defender",
+    "age": 30,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 8.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (30 yrs \u00d7 \u20ac-3.81M)": -114.30050209117717,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 8.766455540294444,
+      "final_predicted_value_eur_m": 8.766455540294444
+    }
+  },
+  {
+    "player_name": "Antonee Robinson",
+    "team": "Fulham",
+    "team_crest": "https://crests.football-data.org/63.png",
+    "position": "Defender",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 12.576472276667019,
+      "final_predicted_value_eur_m": 12.576472276667019
+    }
+  },
+  {
+    "player_name": "Alisson Becker",
+    "team": "Liverpool",
+    "team_crest": "https://crests.football-data.org/64.png",
+    "position": "Goalkeeper",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -6.92751533744679,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Freddie Woodman",
+    "team": "Liverpool",
+    "team_crest": "https://crests.football-data.org/64.png",
+    "position": "Goalkeeper",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.1,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 12.122568344416068,
+      "final_predicted_value_eur_m": 12.122568344416068
+    }
+  },
+  {
+    "player_name": "Giorgi Mamardashvili",
+    "team": "Liverpool",
+    "team_crest": "https://crests.football-data.org/64.png",
+    "position": "Goalkeeper",
+    "age": 26,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 23.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 23.55261855353378,
+      "final_predicted_value_eur_m": 23.55261855353378
+    }
+  },
+  {
+    "player_name": "V\u00edt\u011bzslav Jaro\u0161",
+    "team": "Liverpool",
+    "team_crest": "https://crests.football-data.org/64.png",
+    "position": "Goalkeeper",
+    "age": 25,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 27.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (25 yrs \u00d7 \u20ac-3.81M)": -95.2504184093143,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 27.362635289906354,
+      "final_predicted_value_eur_m": 27.362635289906354
+    }
+  },
+  {
+    "player_name": "Harvey Davies",
+    "team": "Liverpool",
+    "team_crest": "https://crests.football-data.org/64.png",
+    "position": "Goalkeeper",
+    "age": 23,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 35.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (23 yrs \u00d7 \u20ac-3.81M)": -87.63038493656916,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 34.9826687626515,
+      "final_predicted_value_eur_m": 34.9826687626515
+    }
+  },
+  {
+    "player_name": "Kostas Tsimikas",
+    "team": "Liverpool",
+    "team_crest": "https://crests.football-data.org/64.png",
+    "position": "Defender",
+    "age": 30,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 8.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (30 yrs \u00d7 \u20ac-3.81M)": -114.30050209117717,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 8.766455540294444,
+      "final_predicted_value_eur_m": 8.766455540294444
+    }
+  },
+  {
+    "player_name": "G\u00e9ronimo Rulli",
+    "team": "Man City",
+    "team_crest": "https://crests.football-data.org/65.png",
+    "position": "Goalkeeper",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -6.92751533744679,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Gianluigi Donnarumma",
+    "team": "Man City",
+    "team_crest": "https://crests.football-data.org/65.png",
+    "position": "Goalkeeper",
+    "age": 27,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 19.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 19.742601817161205,
+      "final_predicted_value_eur_m": 19.742601817161205
+    }
+  },
+  {
+    "player_name": "Marcus Bettinelli",
+    "team": "Man City",
+    "team_crest": "https://crests.football-data.org/65.png",
+    "position": "Goalkeeper",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -6.92751533744679,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Rayan A\u00eft Nouri",
+    "team": "Man City",
+    "team_crest": "https://crests.football-data.org/65.png",
+    "position": "Defender",
+    "age": 25,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 27.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (25 yrs \u00d7 \u20ac-3.81M)": -95.2504184093143,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 27.816539222157303,
+      "final_predicted_value_eur_m": 27.816539222157303
+    }
+  },
+  {
+    "player_name": "R\u00faben Dias",
+    "team": "Man City",
+    "team_crest": "https://crests.football-data.org/65.png",
+    "position": "Defender",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 12.576472276667019,
+      "final_predicted_value_eur_m": 12.576472276667019
+    }
+  },
+  {
+    "player_name": "Matheus Nunes",
+    "team": "Man City",
+    "team_crest": "https://crests.football-data.org/65.png",
+    "position": "Defender",
+    "age": 28,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 16.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 16.38648901303958,
+      "final_predicted_value_eur_m": 16.38648901303958
+    }
+  },
+  {
+    "player_name": "Karl Darlow",
+    "team": "Man United",
+    "team_crest": "https://crests.football-data.org/66.png",
+    "position": "Goalkeeper",
+    "age": 36,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (36 yrs \u00d7 \u20ac-3.81M)": -137.1606025094126,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -14.54754881019194,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Tom Heaton",
+    "team": "Man United",
+    "team_crest": "https://crests.football-data.org/66.png",
+    "position": "Goalkeeper",
+    "age": 40,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (40 yrs \u00d7 \u20ac-3.81M)": -152.4006694549029,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -29.787615755682236,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Senne Lammens",
+    "team": "Man United",
+    "team_crest": "https://crests.football-data.org/66.png",
+    "position": "Goalkeeper",
+    "age": 24,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 31.2,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 31.17265202627893,
+      "final_predicted_value_eur_m": 31.17265202627893
+    }
+  },
+  {
+    "player_name": "Dermot Mee",
+    "team": "Man United",
+    "team_crest": "https://crests.football-data.org/66.png",
+    "position": "Goalkeeper",
+    "age": 23,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 35.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (23 yrs \u00d7 \u20ac-3.81M)": -87.63038493656916,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 34.9826687626515,
+      "final_predicted_value_eur_m": 34.9826687626515
+    }
+  },
+  {
+    "player_name": "Harry Maguire",
+    "team": "Man United",
+    "team_crest": "https://crests.football-data.org/66.png",
+    "position": "Defender",
+    "age": 33,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (33 yrs \u00d7 \u20ac-3.81M)": -125.73055230029489,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -2.663594668823279,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Matthijs de Ligt",
+    "team": "Man United",
+    "team_crest": "https://crests.football-data.org/66.png",
+    "position": "Defender",
+    "age": 27,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 20.2,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 20.196505749412154,
+      "final_predicted_value_eur_m": 20.196505749412154
+    }
+  },
+  {
+    "player_name": "Nick Pope",
+    "team": "Newcastle",
+    "team_crest": "https://crests.football-data.org/67.png",
+    "position": "Goalkeeper",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -6.92751533744679,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Mark Gillespie",
+    "team": "Newcastle",
+    "team_crest": "https://crests.football-data.org/67.png",
+    "position": "Goalkeeper",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -6.92751533744679,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Luk\u00e1\u0161 Horn\u00ed\u010dek",
+    "team": "Newcastle",
+    "team_crest": "https://crests.football-data.org/67.png",
+    "position": "Goalkeeper",
+    "age": 24,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 31.2,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 31.17265202627893,
+      "final_predicted_value_eur_m": 31.17265202627893
+    }
+  },
+  {
+    "player_name": "Ewen Jaouen",
+    "team": "Newcastle",
+    "team_crest": "https://crests.football-data.org/67.png",
+    "position": "Goalkeeper",
+    "age": 20,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 46.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (20 yrs \u00d7 \u20ac-3.81M)": -76.20033472745145,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 46.41271897176921,
+      "final_predicted_value_eur_m": 46.41271897176921
+    }
+  },
+  {
+    "player_name": "Fabian Sch\u00e4r",
+    "team": "Newcastle",
+    "team_crest": "https://crests.football-data.org/67.png",
+    "position": "Defender",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -6.4736114051958396,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Dan Burn",
+    "team": "Newcastle",
+    "team_crest": "https://crests.football-data.org/67.png",
+    "position": "Defender",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -6.4736114051958396,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Simon Moore",
+    "team": "Sunderland",
+    "team_crest": "https://crests.football-data.org/71.png",
+    "position": "Goalkeeper",
+    "age": 36,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (36 yrs \u00d7 \u20ac-3.81M)": -137.1606025094126,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -14.54754881019194,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Robin Roefs",
+    "team": "Sunderland",
+    "team_crest": "https://crests.football-data.org/71.png",
+    "position": "Goalkeeper",
+    "age": 23,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 35.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (23 yrs \u00d7 \u20ac-3.81M)": -87.63038493656916,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 34.9826687626515,
+      "final_predicted_value_eur_m": 34.9826687626515
+    }
+  },
+  {
+    "player_name": "Melker Ellborg",
+    "team": "Sunderland",
+    "team_crest": "https://crests.football-data.org/71.png",
+    "position": "Goalkeeper",
+    "age": 23,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 35.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (23 yrs \u00d7 \u20ac-3.81M)": -87.63038493656916,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 34.9826687626515,
+      "final_predicted_value_eur_m": 34.9826687626515
+    }
+  },
+  {
+    "player_name": "Thomas Meunier",
+    "team": "Sunderland",
+    "team_crest": "https://crests.football-data.org/71.png",
+    "position": "Defender",
+    "age": 35,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (35 yrs \u00d7 \u20ac-3.81M)": -133.35058577304002,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -10.283628141568414,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Luke O'Nien",
+    "team": "Sunderland",
+    "team_crest": "https://crests.football-data.org/71.png",
+    "position": "Defender",
+    "age": 31,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 5.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (31 yrs \u00d7 \u20ac-3.81M)": -118.11051882754974,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 4.95643880392187,
+      "final_predicted_value_eur_m": 4.95643880392187
+    }
+  },
+  {
+    "player_name": "Kevin Danso",
+    "team": "Sunderland",
+    "team_crest": "https://crests.football-data.org/71.png",
+    "position": "Defender",
+    "age": 28,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 16.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 16.38648901303958,
+      "final_predicted_value_eur_m": 16.38648901303958
+    }
+  },
+  {
+    "player_name": "Martin D\u00fabravka",
+    "team": "Tottenham",
+    "team_crest": "https://crests.football-data.org/73.png",
+    "position": "Goalkeeper",
+    "age": 37,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (37 yrs \u00d7 \u20ac-3.81M)": -140.97061924578517,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -18.357565546564512,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Brandon Austin",
+    "team": "Tottenham",
+    "team_crest": "https://crests.football-data.org/73.png",
+    "position": "Goalkeeper",
+    "age": 27,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 19.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 19.742601817161205,
+      "final_predicted_value_eur_m": 19.742601817161205
+    }
+  },
+  {
+    "player_name": "Anton\u00edn Kinsk\u00fd",
+    "team": "Tottenham",
+    "team_crest": "https://crests.football-data.org/73.png",
+    "position": "Goalkeeper",
+    "age": 23,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 35.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (23 yrs \u00d7 \u20ac-3.81M)": -87.63038493656916,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 34.9826687626515,
+      "final_predicted_value_eur_m": 34.9826687626515
+    }
+  },
+  {
+    "player_name": "Andrew Robertson",
+    "team": "Tottenham",
+    "team_crest": "https://crests.football-data.org/73.png",
+    "position": "Defender",
+    "age": 32,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 1.1,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (32 yrs \u00d7 \u20ac-3.81M)": -121.92053556392231,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 1.1464220675492953,
+      "final_predicted_value_eur_m": 1.1464220675492953
+    }
+  },
+  {
+    "player_name": "Tosin Adarabioyo",
+    "team": "Tottenham",
+    "team_crest": "https://crests.football-data.org/73.png",
+    "position": "Defender",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 12.576472276667019,
+      "final_predicted_value_eur_m": 12.576472276667019
+    }
+  },
+  {
+    "player_name": "Ben Davies",
+    "team": "Tottenham",
+    "team_crest": "https://crests.football-data.org/73.png",
+    "position": "Defender",
+    "age": 33,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (33 yrs \u00d7 \u20ac-3.81M)": -125.73055230029489,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -2.663594668823279,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Jack Butland",
+    "team": "Hull City",
+    "team_crest": "https://crests.football-data.org/322.png",
+    "position": "Goalkeeper",
+    "age": 33,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (33 yrs \u00d7 \u20ac-3.81M)": -125.73055230029489,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -3.11749860107423,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Dillon Phillips",
+    "team": "Hull City",
+    "team_crest": "https://crests.football-data.org/322.png",
+    "position": "Goalkeeper",
+    "age": 31,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 4.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (31 yrs \u00d7 \u20ac-3.81M)": -118.11051882754974,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 4.502534871670919,
+      "final_predicted_value_eur_m": 4.502534871670919
+    }
+  },
+  {
+    "player_name": "Konstantinos Tzolakis",
+    "team": "Hull City",
+    "team_crest": "https://crests.football-data.org/322.png",
+    "position": "Goalkeeper",
+    "age": 23,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 35.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (23 yrs \u00d7 \u20ac-3.81M)": -87.63038493656916,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 34.9826687626515,
+      "final_predicted_value_eur_m": 34.9826687626515
+    }
+  },
+  {
+    "player_name": "Matt Targett",
+    "team": "Hull City",
+    "team_crest": "https://crests.football-data.org/322.png",
+    "position": "Defender",
+    "age": 31,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 5.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (31 yrs \u00d7 \u20ac-3.81M)": -118.11051882754974,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 4.95643880392187,
+      "final_predicted_value_eur_m": 4.95643880392187
+    }
+  },
+  {
+    "player_name": "Paddy McNair",
+    "team": "Hull City",
+    "team_crest": "https://crests.football-data.org/322.png",
+    "position": "Defender",
+    "age": 31,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 5.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (31 yrs \u00d7 \u20ac-3.81M)": -118.11051882754974,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 4.95643880392187,
+      "final_predicted_value_eur_m": 4.95643880392187
+    }
+  },
+  {
+    "player_name": "John Egan",
+    "team": "Hull City",
+    "team_crest": "https://crests.football-data.org/322.png",
+    "position": "Defender",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -6.4736114051958396,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Alex Cairns",
+    "team": "Leeds United",
+    "team_crest": "https://crests.football-data.org/341.png",
+    "position": "Goalkeeper",
+    "age": 33,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (33 yrs \u00d7 \u20ac-3.81M)": -125.73055230029489,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -3.11749860107423,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Michael Zetterer",
+    "team": "Leeds United",
+    "team_crest": "https://crests.football-data.org/341.png",
+    "position": "Goalkeeper",
+    "age": 31,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 4.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (31 yrs \u00d7 \u20ac-3.81M)": -118.11051882754974,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 4.502534871670919,
+      "final_predicted_value_eur_m": 4.502534871670919
+    }
+  },
+  {
+    "player_name": "James Trafford",
+    "team": "Leeds United",
+    "team_crest": "https://crests.football-data.org/341.png",
+    "position": "Goalkeeper",
+    "age": 24,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 31.2,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 31.17265202627893,
+      "final_predicted_value_eur_m": 31.17265202627893
+    }
+  },
+  {
+    "player_name": "Nico Elvedi",
+    "team": "Leeds United",
+    "team_crest": "https://crests.football-data.org/341.png",
+    "position": "Defender",
+    "age": 30,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 8.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (30 yrs \u00d7 \u20ac-3.81M)": -114.30050209117717,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 8.766455540294444,
+      "final_predicted_value_eur_m": 8.766455540294444
+    }
+  },
+  {
+    "player_name": "James Justin",
+    "team": "Leeds United",
+    "team_crest": "https://crests.football-data.org/341.png",
+    "position": "Defender",
+    "age": 28,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 16.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 16.38648901303958,
+      "final_predicted_value_eur_m": 16.38648901303958
+    }
+  },
+  {
+    "player_name": "David Button",
+    "team": "Ipswich Town",
+    "team_crest": "https://crests.football-data.org/349.png",
+    "position": "Goalkeeper",
+    "age": 37,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (37 yrs \u00d7 \u20ac-3.81M)": -140.97061924578517,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -18.357565546564512,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Christian Walton",
+    "team": "Ipswich Town",
+    "team_crest": "https://crests.football-data.org/349.png",
+    "position": "Goalkeeper",
+    "age": 30,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 8.3,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (30 yrs \u00d7 \u20ac-3.81M)": -114.30050209117717,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 8.312551608043494,
+      "final_predicted_value_eur_m": 8.312551608043494
+    }
+  },
+  {
+    "player_name": "Alex Palmer",
+    "team": "Ipswich Town",
+    "team_crest": "https://crests.football-data.org/349.png",
+    "position": "Goalkeeper",
+    "age": 30,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 8.3,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (30 yrs \u00d7 \u20ac-3.81M)": -114.30050209117717,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 8.312551608043494,
+      "final_predicted_value_eur_m": 8.312551608043494
+    }
+  },
+  {
+    "player_name": "Kjell Scherpen",
+    "team": "Ipswich Town",
+    "team_crest": "https://crests.football-data.org/349.png",
+    "position": "Goalkeeper",
+    "age": 26,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 23.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 23.55261855353378,
+      "final_predicted_value_eur_m": 23.55261855353378
+    }
+  },
+  {
+    "player_name": "Darnell Furlong",
+    "team": "Ipswich Town",
+    "team_crest": "https://crests.football-data.org/349.png",
+    "position": "Defender",
+    "age": 31,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 5.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (31 yrs \u00d7 \u20ac-3.81M)": -118.11051882754974,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 4.95643880392187,
+      "final_predicted_value_eur_m": 4.95643880392187
+    }
+  },
+  {
+    "player_name": "Issa Diop",
+    "team": "Ipswich Town",
+    "team_crest": "https://crests.football-data.org/349.png",
+    "position": "Defender",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 12.576472276667019,
+      "final_predicted_value_eur_m": 12.576472276667019
+    }
+  },
+  {
+    "player_name": "John",
+    "team": "Nottingham",
+    "team_crest": "https://crests.football-data.org/351.png",
+    "position": "Goalkeeper",
+    "age": 30,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 8.3,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (30 yrs \u00d7 \u20ac-3.81M)": -114.30050209117717,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 8.312551608043494,
+      "final_predicted_value_eur_m": 8.312551608043494
+    }
+  },
+  {
+    "player_name": "Matz Sels",
+    "team": "Nottingham",
+    "team_crest": "https://crests.football-data.org/351.png",
+    "position": "Goalkeeper",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -6.92751533744679,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Steven Benda",
+    "team": "Nottingham",
+    "team_crest": "https://crests.football-data.org/351.png",
+    "position": "Goalkeeper",
+    "age": 28,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 15.9,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 15.932585080788629,
+      "final_predicted_value_eur_m": 15.932585080788629
+    }
+  },
+  {
+    "player_name": "Nikola Milenkovi\u0107",
+    "team": "Nottingham",
+    "team_crest": "https://crests.football-data.org/351.png",
+    "position": "Defender",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 12.576472276667019,
+      "final_predicted_value_eur_m": 12.576472276667019
+    }
+  },
+  {
+    "player_name": "Ola Aina",
+    "team": "Nottingham",
+    "team_crest": "https://crests.football-data.org/351.png",
+    "position": "Defender",
+    "age": 30,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 8.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (30 yrs \u00d7 \u20ac-3.81M)": -114.30050209117717,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 8.766455540294444,
+      "final_predicted_value_eur_m": 8.766455540294444
+    }
+  },
+  {
+    "player_name": "Daniel Mu\u00f1oz",
+    "team": "Nottingham",
+    "team_crest": "https://crests.football-data.org/351.png",
+    "position": "Defender",
+    "age": 30,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 8.8,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (30 yrs \u00d7 \u20ac-3.81M)": -114.30050209117717,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 8.766455540294444,
+      "final_predicted_value_eur_m": 8.766455540294444
+    }
+  },
+  {
+    "player_name": "Dean Henderson",
+    "team": "Crystal Palace",
+    "team_crest": "https://crests.football-data.org/354.png",
+    "position": "Goalkeeper",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.1,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 12.122568344416068,
+      "final_predicted_value_eur_m": 12.122568344416068
+    }
+  },
+  {
+    "player_name": "Remi Matthews",
+    "team": "Crystal Palace",
+    "team_crest": "https://crests.football-data.org/354.png",
+    "position": "Goalkeeper",
+    "age": 32,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (32 yrs \u00d7 \u20ac-3.81M)": -121.92053556392231,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 0.6925181352983447,
+      "final_predicted_value_eur_m": 0.6925181352983447
+    }
+  },
+  {
+    "player_name": "Walter Ben\u00edtez",
+    "team": "Crystal Palace",
+    "team_crest": "https://crests.football-data.org/354.png",
+    "position": "Goalkeeper",
+    "age": 33,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (33 yrs \u00d7 \u20ac-3.81M)": -125.73055230029489,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -3.11749860107423,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Axel Disasi",
+    "team": "Crystal Palace",
+    "team_crest": "https://crests.football-data.org/354.png",
+    "position": "Defender",
+    "age": 28,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 16.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 16.38648901303958,
+      "final_predicted_value_eur_m": 16.38648901303958
+    }
+  },
+  {
+    "player_name": "Ben Chilwell",
+    "team": "Crystal Palace",
+    "team_crest": "https://crests.football-data.org/354.png",
+    "position": "Defender",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 12.576472276667019,
+      "final_predicted_value_eur_m": 12.576472276667019
+    }
+  },
+  {
+    "player_name": "Takehiro Tomiyasu",
+    "team": "Crystal Palace",
+    "team_crest": "https://crests.football-data.org/354.png",
+    "position": "Defender",
+    "age": 28,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 16.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 16.38648901303958,
+      "final_predicted_value_eur_m": 16.38648901303958
+    }
+  },
+  {
+    "player_name": "Jason Steele",
+    "team": "Brighton Hove",
+    "team_crest": "https://crests.football-data.org/397.png",
+    "position": "Goalkeeper",
+    "age": 36,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (36 yrs \u00d7 \u20ac-3.81M)": -137.1606025094126,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -14.54754881019194,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Bart Verbruggen",
+    "team": "Brighton Hove",
+    "team_crest": "https://crests.football-data.org/397.png",
+    "position": "Goalkeeper",
+    "age": 24,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 31.2,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 31.17265202627893,
+      "final_predicted_value_eur_m": 31.17265202627893
+    }
+  },
+  {
+    "player_name": "Thomas McGill",
+    "team": "Brighton Hove",
+    "team_crest": "https://crests.football-data.org/397.png",
+    "position": "Goalkeeper",
+    "age": 26,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 23.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 23.55261855353378,
+      "final_predicted_value_eur_m": 23.55261855353378
+    }
+  },
+  {
+    "player_name": "Olivier Boscagli",
+    "team": "Brighton Hove",
+    "team_crest": "https://crests.football-data.org/397.png",
+    "position": "Defender",
+    "age": 28,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 16.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 16.38648901303958,
+      "final_predicted_value_eur_m": 16.38648901303958
+    }
+  },
+  {
+    "player_name": "Pascal Struijk",
+    "team": "Brighton Hove",
+    "team_crest": "https://crests.football-data.org/397.png",
+    "position": "Defender",
+    "age": 27,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 20.2,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 20.196505749412154,
+      "final_predicted_value_eur_m": 20.196505749412154
+    }
+  },
+  {
+    "player_name": "Lewis Dunk",
+    "team": "Brighton Hove",
+    "team_crest": "https://crests.football-data.org/397.png",
+    "position": "Defender",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -6.4736114051958396,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Ellery Balcombe",
+    "team": "Brentford",
+    "team_crest": "https://crests.football-data.org/402.png",
+    "position": "Goalkeeper",
+    "age": 27,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 19.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 19.742601817161205,
+      "final_predicted_value_eur_m": 19.742601817161205
+    }
+  },
+  {
+    "player_name": "Caoimhin Kelleher",
+    "team": "Brentford",
+    "team_crest": "https://crests.football-data.org/402.png",
+    "position": "Goalkeeper",
+    "age": 27,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 19.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 19.742601817161205,
+      "final_predicted_value_eur_m": 19.742601817161205
+    }
+  },
+  {
+    "player_name": "H\u00e1kon Rafn Valdimarsson",
+    "team": "Brentford",
+    "team_crest": "https://crests.football-data.org/402.png",
+    "position": "Goalkeeper",
+    "age": 25,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 27.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (25 yrs \u00d7 \u20ac-3.81M)": -95.2504184093143,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 27.362635289906354,
+      "final_predicted_value_eur_m": 27.362635289906354
+    }
+  },
+  {
+    "player_name": "Rico Henry",
+    "team": "Brentford",
+    "team_crest": "https://crests.football-data.org/402.png",
+    "position": "Defender",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 12.576472276667019,
+      "final_predicted_value_eur_m": 12.576472276667019
+    }
+  },
+  {
+    "player_name": "Sepp van den Berg",
+    "team": "Brentford",
+    "team_crest": "https://crests.football-data.org/402.png",
+    "position": "Defender",
+    "age": 24,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 31.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 31.626555958529877,
+      "final_predicted_value_eur_m": 31.626555958529877
+    }
+  },
+  {
+    "player_name": "Kristoffer Ajer",
+    "team": "Brentford",
+    "team_crest": "https://crests.football-data.org/402.png",
+    "position": "Defender",
+    "age": 28,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 16.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 16.38648901303958,
+      "final_predicted_value_eur_m": 16.38648901303958
+    }
+  },
+  {
+    "player_name": "Fraser Forster",
+    "team": "Bournemouth",
+    "team_crest": "https://crests.football-data.org/bournemouth.png",
+    "position": "Goalkeeper",
+    "age": 38,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (38 yrs \u00d7 \u20ac-3.81M)": -144.78063598215775,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -22.167582282937087,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Michele Di Gregorio",
+    "team": "Bournemouth",
+    "team_crest": "https://crests.football-data.org/bournemouth.png",
+    "position": "Goalkeeper",
+    "age": 29,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 12.1,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (29 yrs \u00d7 \u20ac-3.81M)": -110.49048535480459,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 12.122568344416068,
+      "final_predicted_value_eur_m": 12.122568344416068
+    }
+  },
+  {
+    "player_name": "\u0110or\u0111e Petrovi\u0107",
+    "team": "Bournemouth",
+    "team_crest": "https://crests.football-data.org/bournemouth.png",
+    "position": "Goalkeeper",
+    "age": 27,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 19.7,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (27 yrs \u00d7 \u20ac-3.81M)": -102.87045188205946,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 19.742601817161205,
+      "final_predicted_value_eur_m": 19.742601817161205
+    }
+  },
+  {
+    "player_name": "Adam Smith",
+    "team": "Bournemouth",
+    "team_crest": "https://crests.football-data.org/bournemouth.png",
+    "position": "Defender",
+    "age": 35,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (35 yrs \u00d7 \u20ac-3.81M)": -133.35058577304002,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -10.283628141568414,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Max Aarons",
+    "team": "Bournemouth",
+    "team_crest": "https://crests.football-data.org/bournemouth.png",
+    "position": "Defender",
+    "age": 26,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 24.0,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (26 yrs \u00d7 \u20ac-3.81M)": -99.06043514568688,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 24.00652248578473,
+      "final_predicted_value_eur_m": 24.00652248578473
+    }
+  },
+  {
+    "player_name": "James Hill",
+    "team": "Bournemouth",
+    "team_crest": "https://crests.football-data.org/bournemouth.png",
+    "position": "Defender",
+    "age": 24,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 31.6,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (24 yrs \u00d7 \u20ac-3.81M)": -91.44040167294173,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 31.626555958529877,
+      "final_predicted_value_eur_m": 31.626555958529877
+    }
+  },
+  {
+    "player_name": "Daniel Bentley",
+    "team": "Coventry City",
+    "team_crest": "https://crests.football-data.org/1076.png",
+    "position": "Goalkeeper",
+    "age": 33,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (33 yrs \u00d7 \u20ac-3.81M)": -125.73055230029489,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -3.11749860107423,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Ben Wilson",
+    "team": "Coventry City",
+    "team_crest": "https://crests.football-data.org/1076.png",
+    "position": "Goalkeeper",
+    "age": 34,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (34 yrs \u00d7 \u20ac-3.81M)": -129.54056903666745,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": -6.92751533744679,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Carl Rushworth",
+    "team": "Coventry City",
+    "team_crest": "https://crests.football-data.org/1076.png",
+    "position": "Goalkeeper",
+    "age": 25,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 27.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (25 yrs \u00d7 \u20ac-3.81M)": -95.2504184093143,
+        "Position Premium (Goalkeeper)": -0.45390393225095055
+      },
+      "raw_sum": 27.362635289906354,
+      "final_predicted_value_eur_m": 27.362635289906354
+    }
+  },
+  {
+    "player_name": "Jake Bidwell",
+    "team": "Coventry City",
+    "team_crest": "https://crests.football-data.org/1076.png",
+    "position": "Defender",
+    "age": 33,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (33 yrs \u00d7 \u20ac-3.81M)": -125.73055230029489,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -2.663594668823279,
+      "final_predicted_value_eur_m": 0.5
+    }
+  },
+  {
+    "player_name": "Luke Woolfenden",
+    "team": "Coventry City",
+    "team_crest": "https://crests.football-data.org/1076.png",
+    "position": "Defender",
+    "age": 28,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 16.4,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (28 yrs \u00d7 \u20ac-3.81M)": -106.68046861843203,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": 16.38648901303958,
+      "final_predicted_value_eur_m": 16.38648901303958
+    }
+  },
+  {
+    "player_name": "Ethan Pinnock",
+    "team": "Coventry City",
+    "team_crest": "https://crests.football-data.org/1076.png",
+    "position": "Defender",
+    "age": 33,
+    "goals": 0,
+    "assists": 0,
+    "minutes_played": 720,
+    "played_matches": 8,
+    "predicted_value_eur_m": 0.5,
+    "is_live_season": true,
+    "season": "2024-25 (Live Squad)",
+    "explanation": {
+      "contributions": {
+        "Base Intercept": 119.92068004961811,
+        "Goals (0 \u00d7 \u20ac3.27M)": 0.0,
+        "Assists (0 \u00d7 \u20ac2.21M)": 0.0,
+        "Minutes Played (720m \u00d7 \u20ac0.0044M)": 3.1462775818534894,
+        "Age (33 yrs \u00d7 \u20ac-3.81M)": -125.73055230029489,
+        "Position Baseline (Defender)": 0.0
+      },
+      "raw_sum": -2.663594668823279,
+      "final_predicted_value_eur_m": 0.5
+    }
+  }
+]

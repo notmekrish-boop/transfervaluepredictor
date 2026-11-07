@@ -1,0 +1,168 @@
+player_name,team,season,age,position,goals,assists,minutes_played,actual_value_eur_m
+Erling Haaland,Manchester City,2023-24,23,Forward,27,5,2558,180.0
+Erling Haaland,Manchester City,2022-23,22,Forward,36,8,2779,180.0
+Bukayo Saka,Arsenal,2023-24,22,Forward,16,9,2938,140.0
+Bukayo Saka,Arsenal,2022-23,21,Forward,14,11,3181,110.0
+Mohamed Salah,Liverpool,2023-24,31,Forward,18,10,2536,65.0
+Mohamed Salah,Liverpool,2022-23,30,Forward,19,12,3296,70.0
+Mohamed Salah,Liverpool,2021-22,29,Forward,23,13,2762,90.0
+Cole Palmer,Chelsea,2023-24,22,Forward,22,11,2617,80.0
+Alexander Isak,Newcastle United,2023-24,24,Forward,21,2,2260,75.0
+Alexander Isak,Newcastle United,2022-23,23,Forward,10,1,1530,70.0
+Ollie Watkins,Aston Villa,2023-24,28,Forward,19,13,3225,65.0
+Ollie Watkins,Aston Villa,2022-23,27,Forward,15,6,3130,40.0
+Son Heung-min,Tottenham Hotspur,2023-24,31,Forward,17,10,2948,45.0
+Son Heung-min,Tottenham Hotspur,2021-22,29,Forward,23,7,3021,75.0
+Jarrod Bowen,West Ham United,2023-24,27,Forward,16,6,2977,50.0
+Dominic Solanke,AFC Bournemouth,2023-24,26,Forward,19,3,3328,40.0
+Nicolas Jackson,Chelsea,2023-24,22,Forward,14,5,2811,35.0
+Jean-Philippe Mateta,Crystal Palace,2023-24,26,Forward,16,5,2281,30.0
+Kai Havertz,Arsenal,2023-24,25,Forward,13,7,2634,70.0
+Anthony Gordon,Newcastle United,2023-24,23,Forward,11,10,2901,60.0
+Darwin Nunez,Liverpool,2023-24,24,Forward,11,8,2047,70.0
+Darwin Nunez,Liverpool,2022-23,23,Forward,9,3,1695,70.0
+Luis Diaz,Liverpool,2023-24,27,Forward,8,5,2643,75.0
+Cody Gakpo,Liverpool,2023-24,25,Forward,8,5,1630,50.0
+Leandro Trossard,Arsenal,2023-24,29,Forward,12,1,1638,35.0
+Gabriel Martinelli,Arsenal,2022-23,21,Forward,15,5,2789,80.0
+Gabriel Martinelli,Arsenal,2023-24,22,Forward,6,4,2017,70.0
+Julian Alvarez,Manchester City,2023-24,24,Forward,11,9,2659,90.0
+Jeremy Doku,Manchester City,2023-24,22,Forward,3,9,1593,65.0
+Jack Grealish,Manchester City,2022-23,27,Forward,5,7,2060,75.0
+Jack Grealish,Manchester City,2023-24,28,Forward,3,1,1000,60.0
+Marcus Rashford,Manchester United,2022-23,25,Forward,17,5,2879,80.0
+Marcus Rashford,Manchester United,2023-24,26,Forward,7,2,2374,60.0
+Rasmus Hojlund,Manchester United,2023-24,21,Forward,10,2,2171,65.0
+Alejandro Garnacho,Manchester United,2023-24,19,Forward,7,4,2574,45.0
+Richarlison,Tottenham Hotspur,2023-24,27,Forward,11,4,1494,38.0
+Brennan Johnson,Tottenham Hotspur,2023-24,23,Forward,5,10,2337,48.0
+Dejan Kulusevski,Tottenham Hotspur,2023-24,24,Forward,8,3,2769,55.0
+Leon Bailey,Aston Villa,2023-24,26,Forward,10,9,2097,42.0
+Moussa Diaby,Aston Villa,2023-24,24,Forward,6,8,2197,55.0
+Bryan Mbeumo,Brentford,2023-24,24,Forward,9,6,1980,40.0
+Yoane Wissa,Brentford,2023-24,27,Forward,12,3,2374,28.0
+Ivan Toney,Brentford,2022-23,27,Forward,20,4,2953,50.0
+Matheus Cunha,Wolverhampton Wanderers,2023-24,25,Forward,12,7,2465,45.0
+Hwang Hee-chan,Wolverhampton Wanderers,2023-24,28,Forward,12,3,2139,25.0
+Pedro Neto,Wolverhampton Wanderers,2023-24,24,Forward,2,9,1519,55.0
+Michael Olise,Crystal Palace,2023-24,22,Forward,10,6,1277,55.0
+Mohammed Kudus,West Ham United,2023-24,23,Forward,8,6,2478,50.0
+Chris Wood,Nottingham Forest,2023-24,32,Forward,14,1,1807,7.0
+Callum Wilson,Newcastle United,2022-23,31,Forward,18,5,1880,18.0
+Harvey Barnes,Leicester City,2022-23,25,Forward,13,1,2715,35.0
+Dominic Calvert-Lewin,Everton,2023-24,27,Forward,7,2,2197,22.0
+Rodrigo Muniz,Fulham,2023-24,23,Forward,9,1,1563,20.0
+Raul Jimenez,Fulham,2023-24,33,Forward,7,0,1373,5.0
+Kaoru Mitoma,Brighton & Hove Albion,2022-23,26,Forward,7,5,2320,50.0
+Simon Adingra,Brighton & Hove Albion,2023-24,22,Forward,6,1,2217,30.0
+Carlton Morris,Luton Town,2023-24,28,Forward,11,4,2900,13.0
+Elijah Adebayo,Luton Town,2023-24,26,Forward,10,0,1420,12.0
+Anthony Elanga,Nottingham Forest,2023-24,22,Forward,5,9,2419,22.0
+Callum Hudson-Odoi,Nottingham Forest,2023-24,23,Forward,8,1,1690,18.0
+Phil Foden,Manchester City,2023-24,24,Midfielder,19,8,2865,150.0
+Rodri,Manchester City,2023-24,27,Midfielder,8,9,2932,130.0
+Declan Rice,Arsenal,2023-24,25,Midfielder,7,8,3225,120.0
+Martin Odegaard,Arsenal,2023-24,25,Midfielder,8,10,3097,110.0
+Martin Odegaard,Arsenal,2022-23,24,Midfielder,15,7,3127,90.0
+Bruno Guimaraes,Newcastle United,2023-24,26,Midfielder,7,8,3266,85.0
+Kevin De Bruyne,Manchester City,2022-23,31,Midfielder,7,16,2425,70.0
+Kevin De Bruyne,Manchester City,2021-22,30,Midfielder,15,8,2201,85.0
+Bernardo Silva,Manchester City,2023-24,29,Midfielder,6,9,2577,70.0
+Bruno Fernandes,Manchester United,2023-24,29,Midfielder,10,8,3137,70.0
+Bruno Fernandes,Manchester United,2022-23,28,Midfielder,8,8,3320,75.0
+Alexis Mac Allister,Liverpool,2023-24,25,Midfielder,5,5,2605,75.0
+Dominik Szoboszlai,Liverpool,2023-24,23,Midfielder,3,2,2111,75.0
+Moises Caicedo,Chelsea,2023-24,22,Midfielder,1,3,2842,75.0
+Enzo Fernandez,Chelsea,2023-24,23,Midfielder,3,2,2197,75.0
+James Maddison,Tottenham Hotspur,2023-24,27,Midfielder,4,9,2147,70.0
+Douglas Luiz,Aston Villa,2023-24,26,Midfielder,9,5,3014,70.0
+Lucas Paqueta,West Ham United,2023-24,26,Midfielder,4,6,2603,65.0
+Eberechi Eze,Crystal Palace,2023-24,25,Midfielder,11,4,2060,55.0
+Kobbie Mainoo,Manchester United,2023-24,19,Midfielder,3,1,1907,50.0
+Conor Gallagher,Chelsea,2023-24,24,Midfielder,5,7,3139,50.0
+Amadou Onana,Everton,2023-24,22,Midfielder,2,0,2133,50.0
+Morgan Gibbs-White,Nottingham Forest,2023-24,24,Midfielder,5,10,3140,40.0
+Boubacar Kamara,Aston Villa,2023-24,24,Midfielder,0,1,1735,38.0
+Harvey Elliott,Liverpool,2023-24,21,Midfielder,3,6,1335,35.0
+Curtis Jones,Liverpool,2023-24,23,Midfielder,1,1,1170,35.0
+Joao Gomes,Wolverhampton Wanderers,2023-24,23,Midfielder,2,1,2661,35.0
+Edson Alvarez,West Ham United,2023-24,26,Midfielder,1,1,2374,35.0
+John McGinn,Aston Villa,2023-24,29,Midfielder,6,4,3072,30.0
+James Ward-Prowse,West Ham United,2023-24,29,Midfielder,7,7,3139,30.0
+Mateo Kovacic,Manchester City,2023-24,30,Midfielder,1,0,1670,30.0
+Scott McTominay,Manchester United,2023-24,27,Midfielder,7,1,1790,32.0
+Adam Wharton,Crystal Palace,2023-24,20,Midfielder,0,3,1400,30.0
+Youri Tielemans,Aston Villa,2023-24,27,Midfielder,2,6,1748,25.0
+Sean Longstaff,Newcastle United,2023-24,26,Midfielder,6,2,2690,25.0
+Alex Iwobi,Fulham,2023-24,28,Midfielder,5,2,2439,25.0
+Tomas Soucek,West Ham United,2023-24,29,Midfielder,7,2,2769,22.0
+Dwight McNeil,Everton,2023-24,24,Midfielder,3,6,2980,22.0
+Andreas Pereira,Fulham,2023-24,28,Midfielder,3,7,2769,20.0
+Casemiro,Manchester United,2022-23,31,Midfielder,4,3,2128,40.0
+Casemiro,Manchester United,2023-24,32,Midfielder,1,2,1980,20.0
+Thomas Partey,Arsenal,2022-23,29,Midfielder,3,0,2484,35.0
+Jorginho,Arsenal,2023-24,32,Midfielder,0,2,1260,12.0
+Wataru Endo,Liverpool,2023-24,31,Midfielder,1,0,1720,13.0
+Abdoulaye Doucoure,Everton,2023-24,31,Midfielder,7,2,2520,12.0
+Mario Lemina,Wolverhampton Wanderers,2023-24,30,Midfielder,4,1,2901,10.0
+Pascal Gross,Brighton & Hove Albion,2023-24,33,Midfielder,4,10,3149,8.0
+Ross Barkley,Luton Town,2023-24,30,Midfielder,5,4,2700,8.0
+Idrissa Gueye,Everton,2023-24,34,Midfielder,4,0,1948,3.0
+William Saliba,Arsenal,2023-24,23,Defender,2,1,3420,80.0
+William Saliba,Arsenal,2022-23,22,Defender,2,1,2415,65.0
+Ruben Dias,Manchester City,2023-24,27,Defender,0,0,2374,80.0
+Josko Gvardiol,Manchester City,2023-24,22,Defender,4,1,2329,75.0
+Gabriel Magalhaes,Arsenal,2023-24,26,Defender,4,0,3044,70.0
+Trent Alexander-Arnold,Liverpool,2023-24,25,Defender,3,4,2097,70.0
+Trent Alexander-Arnold,Liverpool,2021-22,23,Defender,2,12,2854,80.0
+Cristian Romero,Tottenham Hotspur,2023-24,26,Defender,5,0,2824,60.0
+Ben White,Arsenal,2023-24,26,Defender,4,4,3180,55.0
+Levi Colwill,Chelsea,2023-24,21,Defender,1,1,1790,50.0
+Pedro Porro,Tottenham Hotspur,2023-24,24,Defender,3,7,3060,45.0
+Destiny Udogie,Tottenham Hotspur,2023-24,21,Defender,2,3,2419,45.0
+Pau Torres,Aston Villa,2023-24,27,Defender,2,0,2742,45.0
+Ibrahima Konate,Liverpool,2023-24,25,Defender,0,0,1540,45.0
+Manuel Akanji,Manchester City,2023-24,28,Defender,2,0,2397,45.0
+Jarrad Branthwaite,Everton,2023-24,21,Defender,3,0,3116,42.0
+John Stones,Manchester City,2022-23,28,Defender,2,2,1846,40.0
+Nathan Ake,Manchester City,2023-24,29,Defender,2,2,1709,40.0
+Axel Disasi,Chelsea,2023-24,26,Defender,2,0,2577,40.0
+Marc Guehi,Crystal Palace,2023-24,23,Defender,0,1,2190,38.0
+Ezri Konsa,Aston Villa,2023-24,26,Defender,1,0,3034,35.0
+Diogo Dalot,Manchester United,2023-24,25,Defender,2,3,3060,35.0
+Murillo,Nottingham Forest,2023-24,21,Defender,0,2,2806,35.0
+Rayan Ait-Nouri,Wolverhampton Wanderers,2023-24,23,Defender,2,1,2697,35.0
+Malo Gusto,Chelsea,2023-24,21,Defender,0,6,1980,35.0
+Max Kilman,Wolverhampton Wanderers,2023-24,27,Defender,2,0,3420,32.0
+Virgil van Dijk,Liverpool,2023-24,32,Defender,2,2,3172,30.0
+Virgil van Dijk,Liverpool,2021-22,30,Defender,3,1,3060,55.0
+Andy Robertson,Liverpool,2023-24,30,Defender,3,2,1720,30.0
+Pervis Estupinan,Brighton & Hove Albion,2022-23,25,Defender,1,5,2870,35.0
+Vitaliy Mykolenko,Everton,2023-24,25,Defender,2,0,2439,28.0
+Antonee Robinson,Fulham,2023-24,26,Defender,0,6,3280,25.0
+Nathan Collins,Brentford,2023-24,23,Defender,1,1,2780,25.0
+Harry Maguire,Manchester United,2023-24,31,Defender,2,2,1630,18.0
+James Tarkowski,Everton,2023-24,31,Defender,1,1,3420,13.0
+Kyle Walker,Manchester City,2023-24,34,Defender,0,4,2525,13.0
+Kieran Trippier,Newcastle United,2023-24,33,Defender,1,10,2271,10.0
+Fabian Schar,Newcastle United,2023-24,32,Defender,4,0,3034,10.0
+Lewis Dunk,Brighton & Hove Albion,2023-24,32,Defender,3,0,2824,12.0
+David Raya,Arsenal,2023-24,28,Goalkeeper,0,0,2880,35.0
+Ederson,Manchester City,2023-24,30,Goalkeeper,0,0,2742,35.0
+Ederson,Manchester City,2022-23,29,Goalkeeper,0,1,3150,40.0
+Guglielmo Vicario,Tottenham Hotspur,2023-24,27,Goalkeeper,0,0,3420,35.0
+Andre Onana,Manchester United,2023-24,28,Goalkeeper,0,0,3420,35.0
+Alisson Becker,Liverpool,2023-24,31,Goalkeeper,0,0,2520,28.0
+Alisson Becker,Liverpool,2021-22,29,Goalkeeper,0,1,3240,50.0
+Emiliano Martinez,Aston Villa,2023-24,31,Goalkeeper,0,0,3015,28.0
+Jordan Pickford,Everton,2023-24,30,Goalkeeper,0,0,3420,22.0
+Nick Pope,Newcastle United,2022-23,31,Goalkeeper,0,0,3330,18.0
+Bernd Leno,Fulham,2023-24,32,Goalkeeper,0,0,3420,13.0
+Mark Flekken,Brentford,2023-24,30,Goalkeeper,0,1,3330,12.0
+Alphonse Areola,West Ham United,2023-24,31,Goalkeeper,0,0,2742,10.0
+Robert Sanchez,Chelsea,2023-24,26,Goalkeeper,0,0,1440,20.0
+Dean Henderson,Crystal Palace,2023-24,27,Goalkeeper,0,0,1620,12.0
+Jose Sa,Wolverhampton Wanderers,2023-24,31,Goalkeeper,0,0,3139,14.0
+Bart Verbruggen,Brighton & Hove Albion,2023-24,21,Goalkeeper,0,0,1890,18.0
+James Trafford,Burnley,2023-24,21,Goalkeeper,0,0,2520,18.0
+Thomas Kaminski,Luton Town,2023-24,31,Goalkeeper,0,0,3420,6.0
